@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: water_walk
   Category: 1
-  Element: 8
+  Element: 0
   Trait: 0
   GrowthType: 2
   GrowthRate: 1

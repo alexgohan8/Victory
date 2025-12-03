@@ -18,56 +18,44 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 18351923200
-    m_Localized: Stats
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5741328736256
-    m_Localized: HP
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5741400039424
-    m_Localized: SP
-    m_Metadata:
-      m_Items: []
   - m_Id: 5741400039425
     m_Localized: Kick
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5741400039426
-    m_Localized: Body
     m_Metadata:
       m_Items: []
   - m_Id: 5741400039427
     m_Localized: Control
     m_Metadata:
       m_Items: []
-  - m_Id: 5741400039428
-    m_Localized: Guard
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5741400039429
-    m_Localized: Speed
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5741400039430
-    m_Localized: Stamina
-    m_Metadata:
-      m_Items: []
   - m_Id: 5741400039431
     m_Localized: Technique
     m_Metadata:
       m_Items: []
-  - m_Id: 5741400039432
-    m_Localized: Luck
+  - m_Id: 10487677004292096
+    m_Localized: Stats
     m_Metadata:
       m_Items: []
-  - m_Id: 5741400039433
-    m_Localized: Courage
+  - m_Id: 10487677033652224
+    m_Localized: GP
     m_Metadata:
       m_Items: []
-  - m_Id: 5741400039434
-    m_Localized: Freedom
+  - m_Id: 10487677033652225
+    m_Localized: TP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10487677037846528
+    m_Localized: Pressure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10487677037846529
+    m_Localized: Physical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10487677037846530
+    m_Localized: Agility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10487677037846531
+    m_Localized: Intelligence
     m_Metadata:
       m_Items: []
   references:

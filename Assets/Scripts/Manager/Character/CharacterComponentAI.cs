@@ -657,7 +657,7 @@ public class CharacterComponentAI : MonoBehaviour
     }
 
     public DuelCommand GetRegularCommand() =>
-        character.GetBattleStat(Stat.Body) > character.GetBattleStat(Stat.Control)
+        character.GetBattleStat(Stat.Physical) > character.GetBattleStat(Stat.Control)
             ? DuelCommand.Melee
             : DuelCommand.Ranged;
 

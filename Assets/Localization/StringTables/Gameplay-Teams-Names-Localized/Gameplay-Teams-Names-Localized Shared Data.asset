@@ -15,36 +15,12 @@ MonoBehaviour:
   m_TableCollectionName: Gameplay-Teams-Names-Localized
   m_TableCollectionNameGuidString: 296a309da07f866c29b01c1372324392
   m_Entries:
-  - m_Id: 24216759332249600
-    m_Key: faith_selection
+  - m_Id: 35082797288529920
+    m_Key: victory_national
     m_Metadata:
       m_Items: []
-  - m_Id: 24216759336443904
-    m_Key: crimson_selection
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652992
-    m_Key: faith
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652993
-    m_Key: crimson
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652994
-    m_Key: turtle
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652995
-    m_Key: knight
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652996
-    m_Key: spooky
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652997
-    m_Key: pretty
+  - m_Id: 35082797292724224
+    m_Key: sun_matador
     m_Metadata:
       m_Items: []
   m_Metadata:

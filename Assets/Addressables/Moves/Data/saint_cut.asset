@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: saint_cut
   Category: 2
-  Element: 2
+  Element: 0
   Trait: 0
   GrowthType: 1
   GrowthRate: 0

@@ -10,7 +10,7 @@ public class CharacterPortrait : MonoBehaviour
 
     public void SetCharacter(Character character)
     {
-        SetKitPortrait(character);
+        //SetKitPortrait(character);
         SetCharacterPortrait(character);
     }
 

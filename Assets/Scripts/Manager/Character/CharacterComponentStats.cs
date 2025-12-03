@@ -18,6 +18,12 @@ public class CharacterComponentStats : MonoBehaviour
     [Range(0f, 1f)] private float minStatRatioSp = 0.4f; // 40% of base at level 1
     [Range(0f, 1f)] private float minStatRatioOther = 0.1f; // 10% of base at level 1
 
+    private const int baseLevel = 50;
+    private const int midLevel = 99;
+    private const int maxLevel = 200;
+    private float midPhaseGrowth = 0.6f;  // growth strength between 50→99 (1.0→1.6× curve)
+    private float highPhaseGrowth = 0.4f; // growth strength between 99→200 (continues slower)
+
     public void Initialize(CharacterData characterData, Character character) 
     {
         this.character = character;
@@ -38,17 +44,15 @@ public class CharacterComponentStats : MonoBehaviour
     {
         return stat switch
         {
-            Stat.Hp => characterData.Hp,
-            Stat.Sp => characterData.Sp,
+            Stat.Gp => characterData.Gp,
+            Stat.Tp => characterData.Tp,
             Stat.Kick => characterData.Kick,
-            Stat.Body => characterData.Body,
             Stat.Control => characterData.Control,
-            Stat.Guard => characterData.Guard,
-            Stat.Speed => characterData.Speed,
-            Stat.Stamina => characterData.Stamina,
             Stat.Technique => characterData.Technique,
-            Stat.Luck => characterData.Luck,
-            Stat.Courage => characterData.Courage,
+            Stat.Pressure => characterData.Pressure,
+            Stat.Physical => characterData.Physical,
+            Stat.Agility => characterData.Agility,
+            Stat.Intelligence => characterData.Intelligence,
             _ => 0
         };
     }
@@ -67,10 +71,10 @@ public class CharacterComponentStats : MonoBehaviour
 
     public void ModifyBattleStat(Stat stat, int amount)
     {
-        if (stat == Stat.Hp && amount < 0) 
+        if (stat == Stat.Gp && amount < 0) 
             amount = GetReducedHpAmount(amount);
         battleStats[stat] = Mathf.Clamp(battleStats[stat] + amount, 0, trueStats[stat]);
-        if (stat == Stat.Hp) this.character.UpdateFatigue();
+        if (stat == Stat.Gp) this.character.UpdateFatigue();
     }
 
     public void ModifyTrainedStat(Stat stat, int amount)
@@ -95,30 +99,39 @@ public class CharacterComponentStats : MonoBehaviour
 
     private int ScaleStat(int baseStat, Stat stat)
     {
-        float t = (float)(this.character.Level - 1) / (this.character.MaxLevel - 1);
+        int level = Mathf.Clamp(this.character.Level, 1, maxLevel);
 
-        // HP and SP - Linear scaling
-        if (stat == Stat.Hp)
+        float minRatio = (stat == Stat.Gp) ? minStatRatioHp :
+                         (stat == Stat.Tp) ? minStatRatioSp :
+                         minStatRatioOther;
+
+        float ratio;
+
+        if (level <= baseLevel)
         {
-            float minRatio = minStatRatioHp; // Example: 0.4f for 40 at lvl 1 if baseStat is 100
-            float value = baseStat * Mathf.Lerp(minRatio, 1f, t);
-            return Mathf.RoundToInt(value);
+            // Phase 1: Level 1→50
+            float t = Mathf.InverseLerp(1, baseLevel, level);
+            ratio = Mathf.Lerp(minRatio, 1f, t * t);
         }
-        if (stat == Stat.Sp)
+        else if (level <= midLevel)
         {
-            float minRatio = minStatRatioSp;
-            float value = baseStat * Mathf.Lerp(minRatio, 1f, t);
-            return Mathf.RoundToInt(value);
+            // Phase 2: Level 51→99
+            float t = Mathf.InverseLerp(baseLevel, midLevel, level);
+            // 1.0 → (1 + midPhaseGrowth)
+            ratio = Mathf.Lerp(1f, 1f + midPhaseGrowth, t * t);
+        }
+        else
+        {
+            // Phase 3: Level 100→200
+            float t = Mathf.InverseLerp(midLevel, maxLevel, level);
+            // continues from previous value  (1 + midPhaseGrowth) → add more smoothly
+            float start = 1f + midPhaseGrowth;
+            float end = start + highPhaseGrowth; // (1.6 → 2.0)
+            ratio = Mathf.Lerp(start, end, t * t);
         }
 
-        // Other stats - Quadratic scaling
-        {
-            float minRatio = minStatRatioOther; // Example: 0.1f for 10 at lvl 1 if baseStat is 100
-            // Quadratic interpolation between minRatio and 1, more curve!
-            float q = t * t; // Quadratic interpolation (t squared)
-            float value = baseStat * Mathf.Lerp(minRatio, 1f, q);
-            return Mathf.RoundToInt(value);
-        }
+        float value = baseStat * ratio;
+        return Mathf.RoundToInt(value);
     }
 
     private int GetReducedHpAmount(int amount)
@@ -130,7 +143,7 @@ public class CharacterComponentStats : MonoBehaviour
         const float MaxStaminaReduction = 0.3f;
         const float MinDamageTaken = -1f;
 
-        float stamina = battleStats[Stat.Stamina];
+        float stamina = battleStats[Stat.Physical];
 
         // Calculate reduction factors
         float lvFactor = 1f - Mathf.Min(this.character.Level * LvReductionPerLevel, MaxLvReduction);
@@ -144,5 +157,22 @@ public class CharacterComponentStats : MonoBehaviour
 
         return (int)damageTaken;
     }
+
+    /*
+    Input
+    Gp	Tp	Kick	Control	Technique	Pressure	Physical	Agility
+    100	100	86	94	88	98	102	104
+
+    Output
+    Level	HP / SP Ratio	Kick / Etc Ratio	Gp (HP)	Kick	Control	Technique	Pressure	Physical	Agility
+    1	0.40	0.10	40	9	9	9	10	10	10
+    25	0.75	0.55	75	47	52	48	54	56	57
+    50	1.00	1.00	100	86	94	88	98	102	104
+    75	1.36	1.36	136	117	128	120	133	139	141
+    99	1.60	1.60	160	138	150	141	157	163	166
+    150	1.86	1.86	186	160	174	164	183	190	193
+    200	2.00	2.00	200	172	188	176	196	204	208
+
+    */
 
 }

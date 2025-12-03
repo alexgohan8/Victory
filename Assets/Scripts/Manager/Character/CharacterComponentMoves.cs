@@ -96,7 +96,7 @@ public class CharacterComponentMoves : MonoBehaviour
             CanAffordMove(move);
     }
 
-    public bool CanAffordMove(Move move) => this.character.GetBattleStat(Stat.Sp) >= move.Cost;
+    public bool CanAffordMove(Move move) => this.character.GetBattleStat(Stat.Tp) >= move.Cost;
 
     public bool HasAffordableMove() => equippedMoves.Any(move => CanAffordMove(move));
 

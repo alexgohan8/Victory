@@ -9,13 +9,13 @@ public class BattleScoreboard : MonoBehaviour
 {
     [SerializeField] private TMP_Text scoreTextHome;
     [SerializeField] private TMP_Text scoreTextAway;
-    [SerializeField] private Image teamCrestHome;
-    [SerializeField] private Image teamCrestAway;
+    [SerializeField] private Image teamEmblemHome;
+    [SerializeField] private Image teamEmblemAway;
     [SerializeField] private TMP_Text teamNameHome;
     [SerializeField] private TMP_Text teamNameAway;
 
     private Dictionary<TeamSide, TMP_Text> scoreTextDict;
-    private Dictionary<TeamSide, Image> teamCrestDict;
+    private Dictionary<TeamSide, Image> teamEmblemDict;
     private Dictionary<TeamSide, TMP_Text> teamNameDict;
 
     private void Awake()
@@ -28,10 +28,10 @@ public class BattleScoreboard : MonoBehaviour
             { TeamSide.Away, scoreTextAway }
         };
 
-        teamCrestDict = new Dictionary<TeamSide, Image>
+        teamEmblemDict = new Dictionary<TeamSide, Image>
         {
-            { TeamSide.Home, teamCrestHome },
-            { TeamSide.Away, teamCrestAway }
+            { TeamSide.Home, teamEmblemHome },
+            { TeamSide.Away, teamEmblemAway }
         };
 
         teamNameDict = new Dictionary<TeamSide, TMP_Text>
@@ -49,7 +49,7 @@ public class BattleScoreboard : MonoBehaviour
 
     public void SetTeam(Team team)
     {
-        teamCrestDict[team.TeamSide].sprite = team.TeamCrestSprite;
+        teamEmblemDict[team.TeamSide].sprite = team.TeamEmblemSprite;
         teamNameDict[team.TeamSide].text = team.TeamName;
     }
 

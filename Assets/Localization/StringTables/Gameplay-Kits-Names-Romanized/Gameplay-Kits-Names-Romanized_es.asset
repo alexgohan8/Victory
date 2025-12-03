@@ -18,24 +18,12 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 14807503583584256
-    m_Localized: Equilibrio
+  - m_Id: 35082931854385152
+    m_Localized: Uniforme Victory Japan
     m_Metadata:
       m_Items: []
-  - m_Id: 14807503583584257
-    m_Localized: "Carmes\xED"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807503583584258
-    m_Localized: Enigma
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807503583584259
-    m_Localized: Fe
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807503583584260
-    m_Localized: Esperanza
+  - m_Id: 35082931854385153
+    m_Localized: Uniforme Sol Matador
     m_Metadata:
       m_Items: []
   references:

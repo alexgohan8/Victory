@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: tide_feint
   Category: 1
-  Element: 8
+  Element: 0
   Trait: 0
   GrowthType: 1
   GrowthRate: 0

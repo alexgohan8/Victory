@@ -15,7 +15,8 @@ public class CharacterComponentSpeed : MonoBehaviour
 
     public float GetMovementSpeed()
     {
-        return (character.GetBattleStat(Stat.Speed) * defaultSpeedMultiplier + minSpeed) * character.FatigueSpeedMultiplier * character.StatusSpeedMultiplier;
+        //return (character.GetBattleStat(Stat.Speed) * defaultSpeedMultiplier + minSpeed) * character.FatigueSpeedMultiplier * character.StatusSpeedMultiplier;
+        return (80 * defaultSpeedMultiplier + minSpeed) * character.FatigueSpeedMultiplier * character.StatusSpeedMultiplier;
     }
 
 }

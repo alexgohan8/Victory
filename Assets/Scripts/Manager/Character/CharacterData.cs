@@ -11,18 +11,15 @@ public class CharacterData : ScriptableObject
     public Gender Gender;
     public Element Element;
     public Position Position;
-    public int Hp; 
-    public int Sp;
+    public int Gp; 
+    public int Tp;
     public int Kick;
-    public int Body;
     public int Control;
-    public int Guard;
-    public int Speed;
-    public int Stamina;
     public int Technique;
-    public int Luck;
-    public int Courage;
-    public int Freedom;
+    public int Pressure;
+    public int Physical;
+    public int Agility;
+    public int Intelligence;
     public string[] MoveIds = new string[4];
     public int[] MoveLvs = new int[4];
 }

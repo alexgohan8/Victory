@@ -86,6 +86,6 @@ public static class AddressableLoader
     public static string GetKitPortraitAddress(string kitId, string variant, string role, string size) =>
         $"{AddressableConfig.KitPortraitPath}{AddressableConfig.PathSeparator}{kitId}{AddressableConfig.PathSeparator}{variant}{AddressableConfig.PathSeparator}{role}{AddressableConfig.PathSeparator}{size}";
 
-    public static string GetTeamCrestAddress(string id) =>
-        $"{AddressableConfig.TeamCrestPath}{AddressableConfig.PathSeparator}{id}";
+    public static string GetTeamEmblemAddress(string id) =>
+        $"{AddressableConfig.TeamEmblemPath}{AddressableConfig.PathSeparator}{id}";
 }

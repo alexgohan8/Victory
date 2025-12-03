@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: evil_dribble
   Category: 1
-  Element: 3
+  Element: 0
   Trait: 0
   GrowthType: 1
   GrowthRate: 0

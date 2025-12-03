@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 6840679420042464582}
   - component: {fileID: 6775591244917253511}
   m_Layer: 5
-  m_Name: PanelCrests
+  m_Name: PanelEmblem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 8383954713370922249}
   - component: {fileID: 6860854850129125185}
   m_Layer: 5
-  m_Name: CrestBorderAway
+  m_Name: EmblemBorderAway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 7770757153866852807}
   - component: {fileID: 3042636152009602855}
   m_Layer: 5
-  m_Name: CrestAway
+  m_Name: EmblemAway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -723,8 +723,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreTextHome: {fileID: 3444361835610581769}
   scoreTextAway: {fileID: 7743112566473911214}
-  teamCrestHome: {fileID: 7949345378180798100}
-  teamCrestAway: {fileID: 3042636152009602855}
+  teamEmblemHome: {fileID: 7949345378180798100}
+  teamEmblemAway: {fileID: 3042636152009602855}
   teamNameHome: {fileID: 7300354387046526788}
   teamNameAway: {fileID: 5168762000276727122}
 --- !u!1 &4451464773645335821
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 3104588359799929925}
   - component: {fileID: 6725485669186442931}
   m_Layer: 5
-  m_Name: CrestBorderHome
+  m_Name: EmblemBorderHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1390,7 +1390,7 @@ GameObject:
   - component: {fileID: 3955923868680170200}
   - component: {fileID: 7949345378180798100}
   m_Layer: 5
-  m_Name: CrestHome
+  m_Name: EmblemHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

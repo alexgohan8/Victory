@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: typhoon_zone
   Category: 2
-  Element: 4
+  Element: 0
   Trait: 0
   GrowthType: 0
   GrowthRate: 2

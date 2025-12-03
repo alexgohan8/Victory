@@ -1,6 +1,15 @@
-# Soccer Secret Simulation
-**Soccer Secret Simulation** is an AI generated spin-off game 
-for Android and PC featuring traditional controls and dream match battles.
+# New Game WIP
+**New Game** AI generated game for Android and PC.
+
+---
+
+## Synopsis
+
+The greatest heroes from the Inazuma Eleven series 
+are summoned by the God of Soccer 
+to the Soccer World 
+to compete in the Interdimensional Strongest Cup—
+a tournament designed to prepare them for a dangerous threat.
 
 ---
 
@@ -27,5 +36,5 @@ Here are some screenshots to give you a taste of the action:
 
 ---
 
-> *Soccer Secret Simulation – Is this the final whistle?*
+> *TODO
 

@@ -18,36 +18,12 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 14807511485652992
-    m_Localized: Fe
+  - m_Id: 35082797288529920
+    m_Localized: "Victory Jap\xF3n"
     m_Metadata:
       m_Items: []
-  - m_Id: 14807511485652993
-    m_Localized: "Cruz Carmes\xED"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652994
-    m_Localized: Tortuga Gigante
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652995
-    m_Localized: Caballero?
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652996
-    m_Localized: Miedito
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14807511485652997
-    m_Localized: Pretty Soccer
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24216759332249600
-    m_Localized: "Selecci\xF3n Fe"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24216759336443904
-    m_Localized: "Selecci\xF3n Carmes\xED"
+  - m_Id: 35082797292724224
+    m_Localized: Soles Rojos
     m_Metadata:
       m_Items: []
   references:

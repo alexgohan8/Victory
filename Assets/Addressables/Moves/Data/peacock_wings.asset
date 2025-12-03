@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: peacock_wings
   Category: 1
-  Element: 4
+  Element: 0
   Trait: 0
   GrowthType: 2
   GrowthRate: 1

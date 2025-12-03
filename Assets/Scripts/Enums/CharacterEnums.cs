@@ -3,14 +3,9 @@ namespace Simulation.Enums.Character
     public enum Element 
     {
         Fire, 
-        Ice, 
-        Holy, 
-        Evil, 
-        Air, 
         Forest, 
-        Earth, 
-        Electric, 
-        Water 
+        Wind, 
+        Mountain
     }
 
     public enum Position 
@@ -23,8 +18,8 @@ namespace Simulation.Enums.Character
 
     public enum Gender 
     { 
-        M, 
-        F 
+        Male, 
+        Female 
     }
 
     public enum TeamSide
@@ -42,17 +37,15 @@ namespace Simulation.Enums.Character
 
     public enum Stat 
     { 
-        Hp, 
-        Sp, 
+        Gp, 
+        Tp, 
         Kick, 
-        Body, 
         Control, 
-        Guard, 
-        Speed, 
-        Stamina,
-        Technique,
-        Luck,
-        Courage 
+        Technique, 
+        Pressure, 
+        Physical, 
+        Agility,
+        Intelligence
     }
 
     public enum CharacterSize 

@@ -1,0 +1,25 @@
+CharacterId,BodyTone,PortraitSize,CharacterSize,Gender,Element,Position,Gp,Tp,Kick,Control,Technique,Pressure,Physical,Agility,Intelligence,MoveId0,MoveLv0,MoveId1,MoveLv1,MoveId2,MoveLv2,MoveId3,MoveLv3,AgeGroup,SchoolYear,CharacterRole,Game
+fontaine,light,m,m,Male,Wind,GK,100,100,86,94,88,98,102,104,93,holy_sword,5,pyro_protector,15,demon_dash,25,nature_spirits,45,Middle School,Grade 8,Player,Inazuma Eleven: Victory Road
+harper,light,m,m,Male,Mountain,FW,100,100,121,115,105,88,85,85,93,killer_slash,5,shadow_clone,15,blizzard_overhead,25,genocide_overhead,45,?,?,?,Inazuma Eleven: Victory Road
+bloomhurst,light,m,m,Male,Mountain,FW,100,100,121,115,105,88,85,85,93,killer_slash,5,blizzard_overhead,15,demon_dash,25,genocide_overhead,45,Middle School,Grade 8,Player,Inazuma Eleven: Victory Road
+freud,light,m,m,Male,Forest,MF,100,100,100,108,105,88,88,81,97,swift_feint,5,shining_scramble,15,typhoon_zone,25,wind_tornado,45,Middle School,Grade 7,Player,Inazuma Eleven: Victory Road
+destin,light,m,m,Male,Forest,MF,100,100,104,112,109,91,92,85,100,evil_dribble,5,ice_skating,15,no_return,25,demon_dash,45,Middle School,Grade 7,Player,Inazuma Eleven: Victory Road
+raika,light,m,m,Female,Fire,FW,100,100,110,108,98,88,85,81,97,evil_dribble,5,ice_skating,15,no_return,25,demon_dash,45,Middle School,Grade 8,Player,Inazuma Eleven: Victory Road
+reyes,light,l,l,Male,Mountain,MF,100,100,100,108,105,88,88,81,97,flame_feint,5,lightning_elastico,15,burn_zone,25,salamander_dash,45,Middle School,Grade 8,Player,Inazuma Eleven: Victory Road
+felicier,light,l,l,Female,Forest,DF,100,100,79,83,81,98,102,85,114,ice_block,5,swim_slide,15,ice_skating,25,glacial_slide,45,Middle School,Grade 8,Player,Inazuma Eleven: Victory Road
+winsor,light,l,l,Male,Mountain,DF,100,100,83,86,88,95,99,85,107,dark_block,5,glacial_slide,15,demon_dash,25,no_return,45,Middle School,Grade 7,Player,Inazuma Eleven: Victory Road
+cade,light,xl,xl,Male,Wind,DF,100,100,86,90,91,98,102,88,110,dark_block,5,glacial_slide,15,demon_dash,25,no_return,45,Middle School,Grade 7,Player,Inazuma Eleven: Victory Road
+stretchen,light,m,m,Male,Fire,DF,100,100,83,86,88,95,99,85,107,electric_charge,5,sequoia,15,lightning_elastico,25,electron_zone,45,Middle School,Grade 8,Player,Inazuma Eleven: Victory Road
+warmington,light,m,m,Male,Fire,GK,100,100,90,97,91,98,105,111,97,the_moon,5,poison_fog,15,eternal_frost,25,extinction,45,?,?,?,Inazuma Eleven: Victory Road
+sol,light,m,m,Male,Fire,FW,100,100,121,115,105,88,85,85,93,holy_sword,5,heat_burst,15,shining_scramble,25,overlord_overhead,45,Middle School,Grade 7,Player,Inazuma Eleven GO: Light / Shadow
+taurius,light,l,l,Male,Fire,FW,100,100,104,101,91,81,78,75,90,fire_shot,5,pyro_protector,15,firetrail,25,heat_burst,45,Middle School,Grade 8,Player,Inazuma Eleven 3: Lightning Bolt / Bomb Blast / Team Ogre Attacks!
+gonzalez,light,m,m,Female,Fire,FW,100,100,110,104,95,77,75,75,83,swift_feint,5,shining_scramble,15,typhoon_zone,25,wind_tornado,45,Middle School,Grade 8,Coordinator,Inazuma Eleven
+phoenix,light,m,m,Female,Fire,MF,100,100,90,104,105,77,75,75,93,petal_dribble,5,shadow_clone,15,sequoia,25,vine_swing,45,Middle School,Grade 8,Player,Inazuma Eleven 2: Firestorm / Blizzard
+denton,light,l,l,Male,Fire,MF,100,100,90,104,105,77,75,75,93,petal_dribble,5,water_walk,15,sequoia,25,vine_swing,45,Middle School,Grade 7,Player,Inazuma Eleven
+virgo,light,m,m,Female,Fire,FW,100,100,114,108,98,81,78,78,86,mole_dribble,5,wind_tornado,15,stone_zone,25,world_tour,45,Middle School,Grade 8,Player,Inazuma Eleven 3: Lightning Bolt / Bomb Blast / Team Ogre Attacks!
+lopez,light,m,m,Male,Forest,DF,100,100,76,79,77,95,99,81,110,shell_wall,5,stone_zone,15,water_walk,25,swim_slide,45,Middle School,Grade 8,Player,Inazuma Eleven 3: Lightning Bolt / Bomb Blast / Team Ogre Attacks!
+costa,light,m,m,Male,Wind,DF,100,100,76,79,77,95,99,81,110,nature_spirits,5,extinction,15,sequoia,25,forest_trap,45,Middle School,Grade 8,Player,Inazuma Eleven 3: Lightning Bolt / Bomb Blast / Team Ogre Attacks!
+naval,light,m,m,Male,Mountain,DF,100,100,79,83,81,98,102,85,114,electric_charge,5,thunder_impact,15,lightning_elastico,25,electron_zone,45,Middle School,Grade 9,Player,Inazuma Eleven 3: Lightning Bolt / Bomb Blast / Team Ogre Attacks!
+lil_red,light,s,s,Female,Mountain,DF,100,100,76,79,77,95,99,81,110,earth_defense,5,world_tour,15,stone_zone,25,typhoon_zone,45,Middle School,Grade 7,Player,Inazuma Eleven 3: Lightning Bolt / Bomb Blast / Team Ogre Attacks!
+soren,light,m,m,Male,Fire,GK,100,100,90,97,91,98,105,111,97,nature_spirits,5,extinction,15,sequoia,25,forest_trap,45,?,?,?,Inazuma Eleven: Victory Iberia
+evans,light,m,m,Male,Mountain,GK,100,100,90,97,91,98,105,111,97,nature_spirits,5,extinction,15,sequoia,25,forest_trap,45,Middle School,Grade 8,Player,Inazuma Eleven

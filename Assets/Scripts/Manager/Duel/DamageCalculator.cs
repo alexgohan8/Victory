@@ -8,12 +8,13 @@ using Simulation.Enums.Duel;
 public static class DamageCalculator
 {
     // Multiplier constants
-    private const float MAIN_MULTIPLIER = 1f;
-    private const float SUB_MULTIPLIER = 0.5f;
-    private const float MOVE_MULTIPLIER = 5.0f;
+    private const float MAIN_MULTIPLIER = 0.5f;
+    private const float SUB_MULTIPLIER = 0.1f;
+    private const float MOVE_MULTIPLIER = 3.0f;
     private const float ELEMENT_MATCH_MULTIPLIER = 1.5f;
+    public const float ELEMENT_EFFECTIVE_MULTIPLIER = 1.5f;
 
-    private const float KEEPER_MULTIPLIER = 1.5f;
+    private const float KEEPER_MULTIPLIER = 3f;
 
     private const float DISTANCE_MULTIPLIER = 10f;
     private const float DIRECT_BONUS = 50f;
@@ -23,10 +24,10 @@ public static class DamageCalculator
     private static float CalcFormula(Character character, Stat main, Stat sub0, Stat sub1)
     {
         return
-            character.GetBattleStat(main) +
-            character.GetBattleStat(sub0) * MAIN_MULTIPLIER +
-            character.GetBattleStat(sub1) * SUB_MULTIPLIER +
-            character.GetBattleStat(Stat.Courage);
+            character.GetBattleStat(main) * MAIN_MULTIPLIER +
+            character.GetBattleStat(sub0) * SUB_MULTIPLIER +
+            character.GetBattleStat(sub1) * SUB_MULTIPLIER;
+            //character.GetBattleStat(Stat.Courage);
     }
 
     // Helper function for Move formulas
@@ -35,8 +36,8 @@ public static class DamageCalculator
         if (move == null) return 0f;
         float baseDamage =
             move.Power * MOVE_MULTIPLIER +
-            character.GetBattleStat(main) * MAIN_MULTIPLIER +
-            character.GetBattleStat(Stat.Courage);
+            character.GetBattleStat(main);
+            //character.GetBattleStat(Stat.Courage);
         if (character.Element == move.Element)
             baseDamage *= ELEMENT_MATCH_MULTIPLIER;
         return baseDamage;
@@ -52,24 +53,24 @@ public static class DamageCalculator
         new Dictionary<(Category, DuelCommand), Func<Character, Move, float>>()
     {
         // Dribble
-        {(Category.Dribble, DuelCommand.Melee),  (character, move) => CalcFormula(character, Stat.Control, Stat.Body, Stat.Stamina)},
-        {(Category.Dribble, DuelCommand.Ranged), (character, move) => CalcFormula(character, Stat.Control, Stat.Kick, Stat.Speed)},
-        {(Category.Dribble, DuelCommand.Move), (character, move) => CalcMove(character, move, Stat.Control)},
+        {(Category.Dribble, DuelCommand.Melee),     (character, move) => CalcFormula(character, Stat.Technique, Stat.Intelligence, Stat.Pressure)},
+        {(Category.Dribble, DuelCommand.Ranged),    (character, move) => CalcFormula(character, Stat.Technique, Stat.Control, Stat.Kick)},
+        {(Category.Dribble, DuelCommand.Move),      (character, move) => CalcMove(character, move, Stat.Technique)},
 
         // Block
-        {(Category.Block, DuelCommand.Melee),    (character, move) => CalcFormula(character, Stat.Body, Stat.Guard, Stat.Stamina)},
-        {(Category.Block, DuelCommand.Ranged),   (character, move) => CalcFormula(character, Stat.Body, Stat.Control, Stat.Speed)},
-        {(Category.Block, DuelCommand.Move),  (character, move) => CalcMove(character, move, Stat.Body)},
+        {(Category.Block, DuelCommand.Melee),   (character, move) => CalcFormula(character, Stat.Pressure, Stat.Physical, Stat.Physical)},
+        {(Category.Block, DuelCommand.Ranged),  (character, move) => CalcFormula(character, Stat.Pressure, Stat.Intelligence, Stat.Technique)},
+        {(Category.Block, DuelCommand.Move),    (character, move) => CalcMove(character, move, Stat.Pressure)},
 
         // Shoot
-        {(Category.Shoot, DuelCommand.Melee),    (character, move) => CalcFormula(character, Stat.Kick, Stat.Body, Stat.Stamina)},
-        {(Category.Shoot, DuelCommand.Ranged),   (character, move) => CalcFormula(character, Stat.Kick, Stat.Control, Stat.Speed)},
-        {(Category.Shoot, DuelCommand.Move),  (character, move) => CalcMove(character, move, Stat.Kick)},
+        {(Category.Shoot, DuelCommand.Melee),   (character, move) => CalcFormula(character, Stat.Kick, Stat.Control, Stat.Pressure)},
+        {(Category.Shoot, DuelCommand.Ranged),  (character, move) => CalcFormula(character, Stat.Kick, Stat.Control, Stat.Technique)},
+        {(Category.Shoot, DuelCommand.Move),    (character, move) => CalcMove(character, move, Stat.Kick)},
 
         // Catch
-        {(Category.Catch, DuelCommand.Melee),    (character, move) => CalcFormula(character, Stat.Guard, Stat.Body, Stat.Stamina)},
-        {(Category.Catch, DuelCommand.Ranged),   (character, move) => CalcFormula(character, Stat.Guard, Stat.Control, Stat.Speed)},
-        {(Category.Catch, DuelCommand.Move),  (character, move) => CalcMove(character, move, Stat.Guard)}
+        {(Category.Catch, DuelCommand.Melee),   (character, move) => CalcFormula(character, Stat.Agility, Stat.Physical, Stat.Pressure)},
+        {(Category.Catch, DuelCommand.Ranged),  (character, move) => CalcFormula(character, Stat.Agility, Stat.Physical, Stat.Technique)},
+        {(Category.Catch, DuelCommand.Move),    (character, move) => CalcMove(character, move, Stat.Agility)}
     };
 
     public static float GetDamage(

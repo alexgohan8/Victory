@@ -17,134 +17,146 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 4b91f53ddcb2fc28ca5e4513449057ed
   m_SerializeEntries:
-  - m_GUID: 08615855735a997f5818dc74029b1733
-    m_Address: Assets/Addressables/Characters/Data/inquina.asset
+  - m_GUID: 0329e9869ea12d04fb26d399ba728f49
+    m_Address: Assets/Addressables/Characters/Data/soren.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0bb25e5168e9a6dbd99165718a6f0244
-    m_Address: Assets/Addressables/Characters/Data/ruperta.asset
+  - m_GUID: 2db15eed90962a2f09add0ef9237a5b4
+    m_Address: Assets/Addressables/Characters/Data/stretchen.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 286726754d6651306bba20b1d9804bce
-    m_Address: Assets/Addressables/Characters/Data/almu.asset
+  - m_GUID: 42d57cd24b904b7c4a71b5d63593ee11
+    m_Address: Assets/Addressables/Characters/Data/denton.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2ce4af974ff1d2e43942d41706302db2
-    m_Address: Assets/Addressables/Characters/Data/mohamed.asset
+  - m_GUID: 4a92076702443247aa3b9c4be0887a08
+    m_Address: Assets/Addressables/Characters/Data/felicier.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3e5fb95cc0dc9559aba72fc6123f8a6b
-    m_Address: Assets/Addressables/Characters/Data/fran.asset
+  - m_GUID: 4c9f444c05d36f753b09ff578c8e23d0
+    m_Address: Assets/Addressables/Characters/Data/destin.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4383b1a78862b94b38dd53775e78d86f
-    m_Address: Assets/Addressables/Characters/Data/sofireca.asset
+  - m_GUID: 4eada9ed0fda27006b137342a6491003
+    m_Address: Assets/Addressables/Characters/Data/evans.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4db209cb0927a48a3ab0c264c8350d54
-    m_Address: Assets/Addressables/Characters/Data/malaki.asset
+  - m_GUID: 57095cbf5b4d03459b52322cebddeea7
+    m_Address: Assets/Addressables/Characters/Data/virgo.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5e4ab74c5ee22fd0ba6d76bf077f2171
-    m_Address: Assets/Addressables/Characters/Data/ali.asset
+  - m_GUID: 65f62f706e7fd9bf697ef4c41a163742
+    m_Address: Assets/Addressables/Characters/Data/winsor.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6626073f9bb843080b814a5a9e6825ae
-    m_Address: Assets/Addressables/Characters/Data/ayud.asset
+  - m_GUID: 673cc42f126dd6722b72c15889b67ae4
+    m_Address: Assets/Addressables/Characters/Data/fontaine.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6a758b71ae11048db8dd8e4509919534
-    m_Address: Assets/Addressables/Characters/Data/gambino.asset
+  - m_GUID: 68a25c3c35c6cf87c93cf47ce7caa8db
+    m_Address: Assets/Addressables/Characters/Data/phoenix.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 72afd24c3ddb5981ca250cda04fe784c
-    m_Address: Assets/Addressables/Characters/Data/satu.asset
+  - m_GUID: 80912d307b3636dcfb1aed532b847d65
+    m_Address: Assets/Addressables/Characters/Data/lopez.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8354d3b0c6bdf8a98b06b5800bb7b0c2
-    m_Address: Assets/Addressables/Characters/Data/navarro.asset
+  - m_GUID: 813edaafa844d082dbcd3918b82a6544
+    m_Address: Assets/Addressables/Characters/Data/freud.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 87b34295b48ab045ba71c24879ba395e
-    m_Address: Assets/Addressables/Characters/Data/meiga.asset
+  - m_GUID: 8c23d63964c21e5f48769f287bae9d87
+    m_Address: Assets/Addressables/Characters/Data/cade.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8f0b342dfb051226da61f99c0cb0f99f
-    m_Address: Assets/Addressables/Characters/Data/ainara.asset
+  - m_GUID: 94130000c7cd32395836224311f3f35c
+    m_Address: Assets/Addressables/Characters/Data/bloomhurst.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 910f50326341ab9798ba6df57e120d02
-    m_Address: Assets/Addressables/Characters/Data/rocinante.asset
+  - m_GUID: 9460f88c8793bee1bb76821af45efb5e
+    m_Address: Assets/Addressables/Characters/Data/gonzalez.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 964152e5cd775baaeaaaa95c1b30c2dd
-    m_Address: Assets/Addressables/Characters/Data/apa.asset
+  - m_GUID: a7635bf9f24f98ee080c73d1ccaf0b53
+    m_Address: Assets/Addressables/Characters/Data/taurius.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ae18d6812ab2f278591fc83ce9da84db
-    m_Address: Assets/Addressables/Characters/Data/wang.asset
+  - m_GUID: ae22bcac37dcf7ce1a7e1407ece7379a
+    m_Address: Assets/Addressables/Characters/Data/raika.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b336815f9ebb59bcfaba422aa8aa8702
-    m_Address: Assets/Addressables/Characters/Data/nina.asset
+  - m_GUID: b9d04925c5f6305a78f47f9c0c6f169e
+    m_Address: Assets/Addressables/Characters/Data/costa.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e45b0cadb36fcdc12815fb3ba67ffbf2
-    m_Address: Assets/Addressables/Characters/Data/isa.asset
+  - m_GUID: c6776e4aa47dce724b63ffe75a9d652e
+    m_Address: Assets/Addressables/Characters/Data/lil_red.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eed44a40b5f16084b8fe4bb3c78933aa
-    m_Address: Assets/Addressables/Characters/Data/are.asset
+  - m_GUID: c7f8817ed6851688286f023678955a85
+    m_Address: Assets/Addressables/Characters/Data/warmington.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f25530cc1c7c1d50bae0499c25efb36b
-    m_Address: Assets/Addressables/Characters/Data/alexander.asset
+  - m_GUID: d375b8b387b311f46b0823fc621adf6b
+    m_Address: Assets/Addressables/Characters/Data/harper.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fc54775ca67a362e9b66ab1abaeb6944
-    m_Address: Assets/Addressables/Characters/Data/teruel.asset
+  - m_GUID: e677aa7865cf72aa69bc0f0623e5dfb4
+    m_Address: Assets/Addressables/Characters/Data/sol.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters-Data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eace19e3351312109bc09ba1550a4d17
+    m_Address: Assets/Addressables/Characters/Data/reyes.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Characters-Data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f309f92de4a00a4baaee124f9083793b
+    m_Address: Assets/Addressables/Characters/Data/naval.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Characters-Data
