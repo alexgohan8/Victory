@@ -17,8 +17,8 @@ public class CharacterComponentTraining : MonoBehaviour
     public void Initialize(CharacterData characterData, Character character) 
     {
         this.character = character;
-        this.baseFreedom = characterData.Freedom;
-        this.trueFreedom = this.baseFreedom;
+        //this.baseFreedom = characterData.Freedom;
+        //this.trueFreedom = this.baseFreedom;
     }
 
     public void TrainStat(Stat stat, int amount)

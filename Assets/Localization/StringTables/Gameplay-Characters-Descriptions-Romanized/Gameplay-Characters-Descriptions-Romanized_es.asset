@@ -18,616 +18,119 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 14810736821542912
-    m_Localized: Prueba
+  - m_Id: 35086302988476416
+    m_Localized: "Un cumplidor de reglas con un fuerte sentido del deber. \n\xBFSus
+      reflejos? Perfeccionados a trav\xE9s de \nferoces batallas de cartas."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737216
-    m_Localized: Prueba
+  - m_Id: 35086302988476417
+    m_Localized: ???
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737217
-    m_Localized: Prueba
+  - m_Id: 35086302988476418
+    m_Localized: "Conocido como el delincuente de la escuela, \ntiene unas patadas
+      letales y piernas con resortes."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737218
-    m_Localized: Prueba
+  - m_Id: 35086302988476419
+    m_Localized: "La chispa optimista que ilumina cualquier habitaci\xF3n, \ny su
+      insistencia sin fin... de nivel acosador."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737219
-    m_Localized: Prueba
+  - m_Id: 35086302988476420
+    m_Localized: "Parece odiar el f\xFAtbol y se inscribi\xF3 precisamente \nporque
+      Nagumohara no tiene equipo de f\xFAtbol."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737220
-    m_Localized: Prueba
+  - m_Id: 35086302988476421
+    m_Localized: "Alegre, encantadora y la favorita de todos, \nsiempre busca la
+      pr\xF3xima emoci\xF3n, \nm\xE1s interesada en la subida que en la cima."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737221
-    m_Localized: Prueba
+  - m_Id: 35086302988476422
+    m_Localized: "Con sus 190 cm de altura y presencia imponente, \nes un jefe nato
+      que nunca pasa desapercibido."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737222
-    m_Localized: Prueba
+  - m_Id: 35086302988476423
+    m_Localized: "Se dice que trae felicidad dondequiera que va; \nes el ancla serena,
+      valiente y espiritual del equipo."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737223
-    m_Localized: Prueba
+  - m_Id: 35086302988476424
+    m_Localized: "Vive para la competencia y reta a cualquiera, en cualquier lugar...
+      \nexcepto a los fantasmas, que a\xFAn lo asustan."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737224
-    m_Localized: Prueba
+  - m_Id: 35086302988476425
+    m_Localized: "De naturaleza amable y \xE1gil pese a su tama\xF1o, \npero cuando
+      est\xE1 bajo presi\xF3n, se encierra como una tortuga."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737225
-    m_Localized: Prueba
+  - m_Id: 35086302988476426
+    m_Localized: "Un astuto cazador de trampas con una lengua afilada; \nsu cuerpo
+      largo lo hace una pesadilla de superar."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737226
-    m_Localized: Prueba
+  - m_Id: 35086302988476427
+    m_Localized: ???
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737227
-    m_Localized: Prueba
+  - m_Id: 35086302988476428
+    m_Localized: "Un verdadero genio del f\xFAtbol, del tipo que \nsolo aparece una
+      vez cada d\xE9cada."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737228
-    m_Localized: Prueba
+  - m_Id: 35086302988476429
+    m_Localized: "Le llaman el Toro Loco. Ha derribado \na muchos aspirantes a toreros."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737229
-    m_Localized: Prueba
+  - m_Id: 35086302988476430
+    m_Localized: "Un ayudante que siempre luce nuevas raspaduras \ny adora las poses
+      en una pierna como un flamenco."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737230
-    m_Localized: Prueba
+  - m_Id: 35086302988476431
+    m_Localized: "Se mueve con gracia como el f\xE9nix \nescarlata de la mitolog\xEDa
+      china."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737231
-    m_Localized: Prueba
+  - m_Id: 35086302988476432
+    m_Localized: "Tiene m\xE1s confianza para disparar \ncon la barbilla que con
+      los pies."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737232
-    m_Localized: Prueba
+  - m_Id: 35086302988476433
+    m_Localized: "Una rom\xE1ntica so\xF1adora perdida en \ncuentos de hadas y amores
+      imposibles."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737233
-    m_Localized: Prueba
+  - m_Id: 35086302988476434
+    m_Localized: "Es un gran bailar\xEDn de flamenco. Las chicas hacen fila \npara
+      tener la oportunidad de bailar con \xE9l."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737234
-    m_Localized: Prueba
+  - m_Id: 35086302988476435
+    m_Localized: "Es un ciclista de monta\xF1a experimentado y tenaz."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737235
-    m_Localized: Prueba
+  - m_Id: 35086302988476436
+    m_Localized: "Entrenado como torero desde ni\xF1o, \naunque odia hacer da\xF1o
+      a los animales."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737236
-    m_Localized: Prueba
+  - m_Id: 35086302988476437
+    m_Localized: "Inspirada en los cuentos de hadas, suele llevar \nuna capa roja
+      con capucha y una canasta."
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737237
-    m_Localized: Prueba
+  - m_Id: 35086302988476438
+    m_Localized: ???
     m_Metadata:
       m_Items: []
-  - m_Id: 14810736825737238
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737239
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737240
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737241
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737242
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737243
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737244
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737245
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737246
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737247
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737248
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14810736825737249
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612608
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612609
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612610
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612611
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612612
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612613
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612614
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612615
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612616
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612617
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612618
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612619
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612620
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612621
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612622
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612623
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612624
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612625
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612626
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612627
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612628
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612629
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612630
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612631
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612632
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612633
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612634
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612635
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612636
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612637
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612638
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612639
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612640
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612641
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612642
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612643
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612644
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612645
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612646
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612647
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612648
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612649
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612650
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612651
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612652
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612653
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612654
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612655
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612656
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612657
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612658
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612659
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612660
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612661
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612662
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612663
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612664
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612665
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612666
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612667
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612668
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612669
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612670
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612671
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571516612672
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806912
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806913
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806914
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806915
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806916
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806917
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806918
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806919
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806920
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806921
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806922
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806923
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806924
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806925
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806926
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806927
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806928
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806929
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806930
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806931
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806932
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806933
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806934
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806935
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806936
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806937
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806938
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806939
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806940
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806941
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806942
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806943
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806944
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806945
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806946
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806947
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806948
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806949
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806950
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806951
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806952
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806953
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806954
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806955
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806956
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806957
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806958
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806959
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806960
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806961
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806962
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806963
-    m_Localized: Prueba
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24219571520806964
-    m_Localized: Prueba
+  - m_Id: 35086302992670720
+    m_Localized: "Tiene m\xE1s pasi\xF3n por el f\xFAtbol que nadie. \nSu poderoso
+      coraz\xF3n nunca se rendir\xE1, pase lo que pase."
     m_Metadata:
       m_Items: []
   references:

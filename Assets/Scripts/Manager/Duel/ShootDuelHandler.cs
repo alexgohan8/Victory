@@ -123,7 +123,7 @@ public class ShootDuelHandler : IDuelHandler
     {
         if (participant.Move == null) return;
 
-        participant.Character.ModifyBattleStat(Stat.Sp, -participant.Move.Cost);
+        participant.Character.ModifyBattleStat(Stat.Tp, -participant.Move.Cost);
         BattleUIManager.Instance.SetDuelParticipant(participant.Character, null);
     }
 

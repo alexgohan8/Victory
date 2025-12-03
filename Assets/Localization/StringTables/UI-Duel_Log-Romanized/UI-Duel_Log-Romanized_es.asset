@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17609531395
-    m_Localized: '{teamName} pide un Tiempo Muerto.'
+    m_Localized: '{teamName} pide un tiempo muerto.'
     m_Metadata:
       m_Items:
       - rid: 2307362037524856842
@@ -83,11 +83,11 @@ MonoBehaviour:
       m_Items:
       - rid: 2307362037524856842
   - m_Id: 17609531403
-    m_Localized: "\xA1Poder ofensivo X2!"
+    m_Localized: "\xA1Poder ofensivo aumenta!"
     m_Metadata:
       m_Items: []
   - m_Id: 17609531404
-    m_Localized: "\xA1Poder defensivo X2!"
+    m_Localized: "\xA1Poder defensivo aumenta!"
     m_Metadata:
       m_Items: []
   - m_Id: 17609531405

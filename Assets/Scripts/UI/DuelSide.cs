@@ -17,8 +17,8 @@ public class DuelSide : MonoBehaviour
     public void SetSide(Character character, List<Character> supports)
     {
         HideMiniCards();
-        hpBar.SetCharacter(character, Stat.Hp);
-        spBar.SetCharacter(character, Stat.Sp);
+        hpBar.SetCharacter(character, Stat.Gp);
+        spBar.SetCharacter(character, Stat.Tp);
         possessionImage.gameObject.SetActive(character.HasBall());
         characterCard.SetCharacter(character);
         if (supports != null)

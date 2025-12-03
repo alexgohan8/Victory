@@ -33,7 +33,8 @@ public class MoveComponentEvolution
         this.growthProfile = MoveEvolutionGrowthProfileManager.Instance.GetMoveEvolutionGrowthProfile(moveData);
         this.path = MoveEvolutionPathManager.Instance.GetMoveEvolutionPath(moveData);
 
-        ForceMaxEvolution();
+        //ForceMaxEvolution();
+
     }
 
     public bool IsAtFinalEvolution => !path.TryGetNextEvolution(this.CurrentEvolution, out _);

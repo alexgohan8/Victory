@@ -38,18 +38,15 @@ public class CSVImporterCharacter
         int elementIndex            = System.Array.IndexOf(headers, "Element");
         int positionIndex           = System.Array.IndexOf(headers, "Position");
 
-        int hpIndex       = System.Array.IndexOf(headers, "Hp");
-        int spIndex       = System.Array.IndexOf(headers, "Sp");
-        int kickIndex     = System.Array.IndexOf(headers, "Kick");
-        int bodyIndex     = System.Array.IndexOf(headers, "Body");
-        int controlIndex  = System.Array.IndexOf(headers, "Control");
-        int guardIndex    = System.Array.IndexOf(headers, "Guard");
-        int speedIndex    = System.Array.IndexOf(headers, "Speed");
-        int staminaIndex  = System.Array.IndexOf(headers, "Stamina");
-        int techniqueIndex= System.Array.IndexOf(headers, "Technique");
-        int luckIndex     = System.Array.IndexOf(headers, "Luck");
-        int courageIndex  = System.Array.IndexOf(headers, "Courage");
-        int freedomIndex  = System.Array.IndexOf(headers, "Freedom");
+        int hpIndex             = System.Array.IndexOf(headers, "Gp");
+        int spIndex             = System.Array.IndexOf(headers, "Tp");
+        int kickIndex           = System.Array.IndexOf(headers, "Kick");
+        int controlIndex        = System.Array.IndexOf(headers, "Control");
+        int techniqueIndex      = System.Array.IndexOf(headers, "Technique");
+        int pressureIndex       = System.Array.IndexOf(headers, "Pressure");
+        int physicalIndex       = System.Array.IndexOf(headers, "Physical");
+        int agilityIndex        = System.Array.IndexOf(headers, "Agility");
+        int intelligenceIndex   = System.Array.IndexOf(headers, "Intelligence");
 
         int moveId0Index  = System.Array.IndexOf(headers, "MoveId0");
         int moveLv0Index  = System.Array.IndexOf(headers, "MoveLv0");
@@ -75,18 +72,15 @@ public class CSVImporterCharacter
             characterData.Element       = EnumManager.StringToEnum<Element>(values[elementIndex].Trim());
             characterData.Position      = EnumManager.StringToEnum<Position>(values[positionIndex].Trim());
 
-            characterData.Hp        = int.Parse(values[hpIndex].Trim());
-            characterData.Sp        = int.Parse(values[spIndex].Trim());
-            characterData.Kick      = int.Parse(values[kickIndex].Trim());
-            characterData.Body      = int.Parse(values[bodyIndex].Trim());
-            characterData.Control   = int.Parse(values[controlIndex].Trim());
-            characterData.Guard     = int.Parse(values[guardIndex].Trim());
-            characterData.Speed     = int.Parse(values[speedIndex].Trim());
-            characterData.Stamina   = int.Parse(values[staminaIndex].Trim());
-            characterData.Technique = int.Parse(values[techniqueIndex].Trim());
-            characterData.Luck      = int.Parse(values[luckIndex].Trim());
-            characterData.Courage   = int.Parse(values[courageIndex].Trim());
-            characterData.Freedom   = int.Parse(values[freedomIndex].Trim());
+            characterData.Gp            = int.Parse(values[hpIndex].Trim());
+            characterData.Tp            = int.Parse(values[spIndex].Trim());
+            characterData.Kick          = int.Parse(values[kickIndex].Trim());
+            characterData.Control       = int.Parse(values[controlIndex].Trim());
+            characterData.Technique     = int.Parse(values[techniqueIndex].Trim());
+            characterData.Pressure      = int.Parse(values[pressureIndex].Trim());
+            characterData.Physical      = int.Parse(values[physicalIndex].Trim());
+            characterData.Agility       = int.Parse(values[agilityIndex].Trim());
+            characterData.Intelligence  = int.Parse(values[intelligenceIndex].Trim());
 
             characterData.MoveIds = new string[4]
             {

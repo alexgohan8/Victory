@@ -53,7 +53,7 @@ public class Team
     //localizationComponent
     public string TeamName => localizationStringComponent.GetString(LocalizationField.Name);
     //appearanceComponent
-    public Sprite TeamCrestSprite => appearanceComponent.TeamCrestSprite;
+    public Sprite TeamEmblemSprite => appearanceComponent.TeamEmblemSprite;
     //formationComponent
     public Formation Formation => formationComponent.Formation;    
     public void SetFormation(Formation formation) => formationComponent.SetFormation(formation);

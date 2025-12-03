@@ -71,7 +71,7 @@ public class FieldDuelHandler : IDuelHandler
     public void EndDuel(DuelParticipant winner, DuelParticipant loser) 
     { 
         if (winner.Move != null)
-            winner.Character.ModifyBattleStat(Stat.Sp, -winner.Move.Cost);
+            winner.Character.ModifyBattleStat(Stat.Tp, -winner.Move.Cost);
 
         if (winner.Character.IsOnUsersTeam())
             BattleEffectManager.Instance.PlayDuelWinEffect(winner.Character.transform); 

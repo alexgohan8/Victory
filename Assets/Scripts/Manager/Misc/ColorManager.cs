@@ -87,14 +87,9 @@ public static class ColorManager
     private static readonly Dictionary<Element, Color> elementColors = new Dictionary<Element, Color>()
     {
         { Element.Fire,      new Color(1f, 0f, 0f, 1f) },           // Red
-        { Element.Ice,       new Color(0.5f, 0.8f, 1f, 1f) },       // Light Blue
-        { Element.Holy,      new Color(1f, 1f, 0f, 1f) },           // Yellow
-        { Element.Evil,      new Color(0.8f, 0.6f, 0.8f, 1f) },     // Purple
-        { Element.Air,       new Color(1f, 1f, 1f, 1f) },           // White
         { Element.Forest,    new Color(0.2f, 0.8f, 0.2f, 1f) },     // Green
-        { Element.Earth,     new Color(0.6f, 0.4f, 0.2f, 1f) },     // Brown
-        { Element.Electric,  new Color(1f, 0.92f, 0.016f, 1f) },    // Yellow Spark
-        { Element.Water,     new Color(0.18f, 0.44f, 1f, 1f) }      // Blue
+        { Element.Wind,       new Color(1f, 1f, 1f, 1f) },          // White
+        { Element.Mountain,     new Color(0.6f, 0.4f, 0.2f, 1f) }      // Brown
     };
 
     public static Color GetElementColor(Element element)

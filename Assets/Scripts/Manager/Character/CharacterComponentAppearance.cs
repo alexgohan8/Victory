@@ -73,13 +73,13 @@ public class CharacterComponentAppearance : MonoBehaviour
         Team team, 
         FormationCoord formationCoord)
     {
-        if (this.character == character)
-            _ = SetKitAsync(team, team.Kit);
+        //if (this.character == character)
+            //_ = SetKitAsync(team, team.Kit);
     }
 
     private async Task InitializeAsync(CharacterData characterData)
     {
-        _characterHeadAddress = AddressableLoader.GetCharacterHeadAddress(characterData.CharacterId);
+        _characterHeadAddress = AddressableLoader.GetCharacterHeadAddress(character.CharacterId);
         characterHeadSprite = await AddressableLoader.LoadAsync<Sprite>(_characterHeadAddress);
         if (characterHeadSprite) 
             characterHeadRenderer.sprite = characterHeadSprite;
@@ -97,7 +97,7 @@ public class CharacterComponentAppearance : MonoBehaviour
     {
         Role role = GetRole();
         Variant variant = GetVariant(team);
-
+        
         _kitBodyAddress = AddressableLoader.GetKitBodyAddress(
             kit.KitId, 
             variant.ToString().ToLower(), 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: eco_elastico
   Category: 1
-  Element: 5
+  Element: 0
   Trait: 0
   GrowthType: 0
   GrowthRate: 2

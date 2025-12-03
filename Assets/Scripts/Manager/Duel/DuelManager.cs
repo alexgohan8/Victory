@@ -277,8 +277,8 @@ public class DuelManager : MonoBehaviour
             $"Category {winner.Category}", this);
         DuelEvents.RaiseDuelEnd(duel.DuelMode, winner, loser, isWinnerUser);
 
-        winner.Character.ModifyBattleStat(Stat.Hp, hpWinner);
-        loser.Character.ModifyBattleStat(Stat.Hp, hpLoser);
+        winner.Character.ModifyBattleStat(Stat.Gp, hpWinner);
+        loser.Character.ModifyBattleStat(Stat.Gp, hpLoser);
 
         if (isWinnerUser)
             AudioManager.Instance.PlaySfx("sfx-duel_win");
@@ -297,7 +297,7 @@ public class DuelManager : MonoBehaviour
     {
         if (DamageCalculator.IsEffective(defense.CurrentElement, offense.CurrentElement))
         {
-            defense.Damage *= 2f;
+            defense.Damage *= DamageCalculator.ELEMENT_EFFECTIVE_MULTIPLIER;
             DuelLogManager.Instance.AddElementDefense(defense.Character);
             LogManager.Info("[DuelManager] Defense element is effective", this);
         }
@@ -305,7 +305,7 @@ public class DuelManager : MonoBehaviour
         {
             if (duel.DuelMode == DuelMode.Shoot)
                 duel.OffensePressure -= offense.Damage;
-            offense.Damage *= 2;
+            offense.Damage *= DamageCalculator.ELEMENT_EFFECTIVE_MULTIPLIER;
             if (duel.DuelMode == DuelMode.Shoot)
                 duel.OffensePressure += offense.Damage;
             DuelLogManager.Instance.AddElementOffense(offense.Character);

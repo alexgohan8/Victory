@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: swim_slide
   Category: 2
-  Element: 8
+  Element: 0
   Trait: 0
   GrowthType: 0
   GrowthRate: 2

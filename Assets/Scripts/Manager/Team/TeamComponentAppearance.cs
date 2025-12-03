@@ -4,11 +4,11 @@ using System.Threading.Tasks;
 public class TeamComponentAppearance
 {
     #region Sprite
-    public Sprite TeamCrestSprite { get; private set; }
+    public Sprite TeamEmblemSprite { get; private set; }
     #endregion
 
     #region Address
-    private string _teamCrestAddress;
+    private string _teamEmblemAddress;
     #endregion
 
     #region Internal
@@ -29,17 +29,17 @@ public class TeamComponentAppearance
 
     private void OnDestroy()
     {
-        if (!string.IsNullOrEmpty(_teamCrestAddress)) AddressableLoader.Release(_teamCrestAddress);
+        if (!string.IsNullOrEmpty(_teamEmblemAddress)) AddressableLoader.Release(_teamEmblemAddress);
     }
 
     private async Task InitializeAsync(TeamData teamData)
     {
-        _teamCrestAddress = AddressableLoader.GetTeamCrestAddress(teamData.TeamId);
-        TeamCrestSprite = await AddressableLoader.LoadAsync<Sprite>(_teamCrestAddress);
-        if (!TeamCrestSprite) 
+        _teamEmblemAddress = AddressableLoader.GetTeamEmblemAddress(teamData.TeamId);
+        TeamEmblemSprite = await AddressableLoader.LoadAsync<Sprite>(_teamEmblemAddress);
+        if (!TeamEmblemSprite) 
         {
-            _teamCrestAddress = AddressableLoader.GetTeamCrestAddress(defaultId);
-            TeamCrestSprite = await AddressableLoader.LoadAsync<Sprite>(_teamCrestAddress);
+            _teamEmblemAddress = AddressableLoader.GetTeamEmblemAddress(defaultId);
+            TeamEmblemSprite = await AddressableLoader.LoadAsync<Sprite>(_teamEmblemAddress);
         }
     }
 

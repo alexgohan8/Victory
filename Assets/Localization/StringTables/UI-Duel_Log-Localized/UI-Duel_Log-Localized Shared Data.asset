@@ -59,6 +59,10 @@ MonoBehaviour:
     m_Key: action_command
     m_Metadata:
       m_Items: []
+  - m_Id: 8025183153299456
+    m_Key: action_command_short
+    m_Metadata:
+      m_Items: []
   - m_Id: 17294958600
     m_Key: action_damage
     m_Metadata:
@@ -105,10 +109,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 17294958611
     m_Key: condition
-    m_Metadata:
-      m_Items: []
-  - m_Id: 8025183153299456
-    m_Key: action_command_short
     m_Metadata:
       m_Items: []
   m_Metadata:

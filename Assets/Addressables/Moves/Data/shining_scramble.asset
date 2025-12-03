@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: shining_scramble
   Category: 1
-  Element: 2
+  Element: 0
   Trait: 0
   GrowthType: 0
   GrowthRate: 2

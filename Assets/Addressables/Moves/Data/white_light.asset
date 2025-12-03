@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveId: white_light
   Category: 2
-  Element: 2
+  Element: 0
   Trait: 0
   GrowthType: 0
   GrowthRate: 2
