@@ -27,6 +27,26 @@ This project is licensed under the [GNU General Public License v3.0](https://www
 
 ---
 
+## Controls
+
+### General
+- **Move:** Left Stick / `WASD` keys
+
+### Offense
+- **Pass:** B Button / Left Click  
+- **Shoot:** X Button / Right Click
+
+### Defense
+- **Change:** B Button / Left Click
+
+### Duel
+- **Left Command:** Y Button / `A` key  
+- **Right Command:** A Button / `D` key  
+- **Open Secret Menu:** X Button / `W` key  
+- **Close Secret Menu:** B Button / `S` key
+
+---
+
 ## Screenshots
 
 Here are some screenshots to give you a taste of the action:

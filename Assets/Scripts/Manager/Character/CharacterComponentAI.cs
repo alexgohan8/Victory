@@ -179,6 +179,16 @@ public class CharacterComponentAI : MonoBehaviour
             InitializeSupportForwardOffset(formationCoord.Position);
             isAIEnabled = true;
             isAutoBattleEnabled = SettingsManager.Instance.IsAutoBattleEnabled;
+
+            if (team.TeamSide == TeamSide.Home ||
+                character.CharacterId == "soren" || 
+                character.CharacterId == "virgo" || 
+                character.CharacterId == "taurius") 
+            {
+                this.difficulty = AIDifficulty.Hard;
+            } else {
+                this.difficulty = AIDifficulty.Normal;
+            }
         }
     }
 
