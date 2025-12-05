@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 3
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 90
   Control: 97
   Technique: 91
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 111
   Intelligence: 97
   MoveIds:
-  - nature_spirits
-  - extinction
-  - sequoia
-  - forest_trap
+  - galatyn
+  - beast_fang
+  - grand_fire
+  - procyon_net
   MoveLvs: 050000000f000000190000002d000000

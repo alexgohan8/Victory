@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 0
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 110
   Control: 104
   Technique: 95
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 75
   Intelligence: 83
   MoveIds:
-  - swift_feint
-  - shining_scramble
-  - typhoon_zone
-  - wind_tornado
+  - x_blast
+  - flame_dance
+  - matador_feint
+  - swirly_shot
   MoveLvs: 050000000f000000190000002d000000

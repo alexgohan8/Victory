@@ -65,7 +65,7 @@ public class BattleManager : MonoBehaviour
     {
         if (!isTimeFrozen)
         {
-            float timeScale = 15f;
+            float timeScale = 50f;
             timeCurrent += Time.deltaTime * timeScale;
             BattleUIManager.Instance.UpdateTimerDisplay(timeCurrent);
             CheckEndGame();

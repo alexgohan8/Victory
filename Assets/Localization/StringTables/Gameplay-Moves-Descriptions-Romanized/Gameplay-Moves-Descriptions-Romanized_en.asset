@@ -18,436 +18,493 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 14810744505507840
-    m_Localized: Test
+  - m_Id: 35763007394684928
+    m_Localized: 'A trio of powerful kicks stokes roaring fire into
+
+      a mighty
+      ground shot.'
     m_Metadata:
       m_Items: []
-  - m_Id: 14810744505507841
-    m_Localized: Test
+  - m_Id: 35763007398879232
+    m_Localized: 'Thrust out both hands like a ferocious beast baring
+
+      fangs
+      at incoming shots.'
     m_Metadata:
       m_Items: []
-  - m_Id: 14810744505507842
-    m_Localized: Test
+  - m_Id: 35763007398879233
+    m_Localized: 'Release whirlwinds from both hands and combine them
+
+      into
+      one to absorb and negate incoming shots.'
     m_Metadata:
       m_Items: []
-  - m_Id: 14810744505507843
-    m_Localized: Test
+  - m_Id: 35763007398879234
+    m_Localized: 'A brilliant aura transforms into a towering blade
+
+      that slices
+      incoming shots into two.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025071869952
-    m_Localized: Test
+  - m_Id: 35763007398879235
+    m_Localized: 'Raise teammates'' dreams upon golden wings
+
+      and seize victory
+      as you unleash great power!'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064256
-    m_Localized: Test
+  - m_Id: 35763007398879236
+    m_Localized: 'Overflowing passion manifests a giant right hand.
+
+      Behold
+      the mighty God Hand!'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064257
-    m_Localized: Test
+  - m_Id: 35763007398879237
+    m_Localized: 'Infuse willpower into your right hand to block goal
+
+      shots
+      by punching them away.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064258
-    m_Localized: Test
+  - m_Id: 35763007398879238
+    m_Localized: 'Catch the ball firmly with a fist of fire.
+
+      The willpower
+      contained within refuses to let the ball pass.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064259
-    m_Localized: Test
+  - m_Id: 35763007398879239
+    m_Localized: 'Like the Winter Triangle in the night sky, a shining
+
+      barrier
+      of stars protects the goal.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064260
-    m_Localized: Test
+  - m_Id: 35763007398879240
+    m_Localized: 'Channel unstoppable force into a single strike
+
+      to send the
+      ball hurtling with devastating power.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064261
-    m_Localized: Test
+  - m_Id: 35763007398879241
+    m_Localized: 'Three players charge the ball with thunder
+
+      and launch it
+      high for a lightning-like shot!'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064262
-    m_Localized: Test
+  - m_Id: 35763007398879242
+    m_Localized: 'A special move that utilizes the flames blazing within.
+
+      Synergy
+      with the red-hot power of friendship
+
+      fuels it further.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064263
-    m_Localized: Test
+  - m_Id: 35763007398879243
+    m_Localized: 'Use fiery breakdancing moves to steal the ball from
+
+      the
+      opponent.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064264
-    m_Localized: Test
+  - m_Id: 35763007398879244
+    m_Localized: 'Unleash a tornado on the opposition
+
+      and send them flying.
+      Then, with the wind,
+
+      make a mad dash straight for the goal.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064265
-    m_Localized: Test
+  - m_Id: 35763007398879245
+    m_Localized: 'Channel raw force into the airborne ball
+
+      and fire it at
+      the goal in a brilliant flash of
+
+      swirling fuchsia energy.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064266
-    m_Localized: Test
+  - m_Id: 35763007398879246
+    m_Localized: 'Unleash a double strike, spinning the ball
+
+      skyward and turning
+      kicked-up dust into a
+
+      raging surge of purple lightning.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064267
-    m_Localized: Test
+  - m_Id: 35763007398879247
+    m_Localized: 'Deliver a sharp kick that stirs up a cyclone around
+
+      the
+      opponent and carries them, ball and all,
+
+      into the air.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025076064268
-    m_Localized: Test
+  - m_Id: 35763007398879248
+    m_Localized: 'Charge the ball with heavenly lightning and
+
+      drive it earthward
+      in a blinding, electrifying strike.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258560
-    m_Localized: Test
+  - m_Id: 35763007398879249
+    m_Localized: 'The ball sticks to your feet like magic,
+
+      dribbling in midair
+      without ever falling.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258561
-    m_Localized: Test
+  - m_Id: 35763007398879250
+    m_Localized: 'Conjure storm clouds by kicking the ball up and zap
+
+      the
+      opponent with strong electric shocks.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258562
-    m_Localized: Test
+  - m_Id: 35763007398879251
+    m_Localized: 'Jump above the opponent to distract them while
+
+      another player
+      steals the ball.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258563
-    m_Localized: Test
+  - m_Id: 35763007398879252
+    m_Localized: 'A high level ninja move that confuses the opponent
+
+      by splitting
+      into three fast-moving ninja clones.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258564
-    m_Localized: Test
+  - m_Id: 35763007398879253
+    m_Localized: 'Spin the ball into a spiraling tempest that
+
+      twists and turns
+      to catch the keeper
+
+      completely off guard.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258565
-    m_Localized: Test
+  - m_Id: 35763007398879254
+    m_Localized: 'Overtake the opponent using high-speed backflips and
+
+      steal
+      the ball with a sliding tackle.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258566
-    m_Localized: Test
+  - m_Id: 35763007398879255
+    m_Localized: 'Move so fast the eye can''t keep up.
+
+      Dodge rivals with this
+      ninja technique.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258567
-    m_Localized: Test
+  - m_Id: 35763007398879256
+    m_Localized: 'Use flower petals dancing daintily on the pitch to
+
+      reduce
+      the power of incoming shots.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258568
-    m_Localized: Test
+  - m_Id: 35763007398879257
+    m_Localized: 'Two players kick the ball to add a powerful spin
+
+      that conjures
+      up a purple vortex and blows
+
+      opponents away.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258569
-    m_Localized: Test
+  - m_Id: 35763007398879258
+    m_Localized: 'Once locked on, there''s no escape.
+
+      Three players converge
+      for this coordinated attack!'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258570
-    m_Localized: Test
+  - m_Id: 35763007398879259
+    m_Localized: 'Raise up stone barriers from the earth, forming a
+
+      narrow
+      path of no escape before stealing the
+
+      opponent''s ball.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258571
-    m_Localized: Test
+  - m_Id: 35763007398879260
+    m_Localized: 'Alert the pitch to a mysterious flying rice ball
+
+      and use
+      the chaos to snatch the ball
+
+      and break through.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258572
-    m_Localized: Test
+  - m_Id: 35763007398879261
+    m_Localized: 'The ball grows a pair of angelic white wings,
+
+      making the
+      opponent lose their will to fight.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258573
-    m_Localized: Test
+  - m_Id: 35763007403073536
+    m_Localized: 'A double sliding tackle executed at full force that
+
+      cleanly
+      reaps the opponent''s ball away.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258574
-    m_Localized: Test
+  - m_Id: 35763007403073537
+    m_Localized: 'With a wild shout and a mighty stomp,
+
+      call forth a titanic
+      foot from the skies
+
+      to smash down on your foe.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258575
-    m_Localized: Test
+  - m_Id: 35763007403073538
+    m_Localized: 'Harness the power of the earth to raise a wall,
+
+      blocking
+      the way and proving yourself a mighty defender.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258576
-    m_Localized: Test
+  - m_Id: 35763007403073539
+    m_Localized: 'A greatly powered-up version of The Wall that
+
+      summons a
+      towering mountain to block opponents.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258577
-    m_Localized: Test
+  - m_Id: 35763007403073540
+    m_Localized: 'Three players line up and support the player in
+
+      front so
+      that the first player can use their body
+
+      to put up a strong guard.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258578
-    m_Localized: Test
+  - m_Id: 35763007403073541
+    m_Localized: 'Whirl into action with astonishing speed and
+
+      dance through
+      opponents to claim the ball.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258579
-    m_Localized: Test
+  - m_Id: 35763007403073542
+    m_Localized: 'Encircle your rival in a spiraling vortex and awaken
+
+      the
+      ocean''s guardian to rise with a
+
+      crashing wave and steal the ball.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258580
-    m_Localized: Test
+  - m_Id: 35763007403073543
+    m_Localized: 'Charge ahead while generating a whirlwind and
+
+      blast approaching
+      opponents into the sky.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258581
-    m_Localized: Test
+  - m_Id: 35763007403073544
+    m_Localized: 'Spread a veil of eerie fog that unnerves the enemy,
+
+      then
+      slip through the shadows to claim the ball.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258582
-    m_Localized: Test
+  - m_Id: 35763007403073545
+    m_Localized: 'Execute a hair-raising roundhouse kick that sends
+
+      out a
+      diabolical shockwave.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258583
-    m_Localized: Test
+  - m_Id: 35763007403073546
+    m_Localized: 'A sharp roundhouse creates a crescent of blue energy
+
+      that
+      blasts opponents aside with great force!'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258584
-    m_Localized: Test
+  - m_Id: 35763007403073547
+    m_Localized: 'A sharp spin kick, causing an eruption of flames!
+
+      The wall
+      of fire will blow away opponents and
+
+      stop their breakthrough.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258585
-    m_Localized: Test
+  - m_Id: 35763007403073548
+    m_Localized: 'Rush at a cyclone-caught opponent like a piercing
+
+      arrow
+      while the referee is looking away.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258586
-    m_Localized: Test
+  - m_Id: 35763007403073549
+    m_Localized: 'Call forth swirling thunderclouds that imbue the
+
+      ball with
+      electricity before shooting.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025080258587
-    m_Localized: Test
+  - m_Id: 35763007403073550
+    m_Localized: 'Imbue the ball with explosive solar
+
+      energy and fire off
+      a shot engulfed in crimson flames.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452864
-    m_Localized: Test
+  - m_Id: 35763007403073551
+    m_Localized: 'Scatter out sparks that explode violently!
+
+      Dazzle the opposition
+      and make them cower.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452865
-    m_Localized: Test
+  - m_Id: 35763007403073552
+    m_Localized: 'Legendary wings sprout against the sun and the
+
+      bright light
+      that results blinds the opponents,
+
+      allowing for a breakthrough.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452866
-    m_Localized: Test
+  - m_Id: 35763007403073553
+    m_Localized: 'Tackle the opposition head-on
+
+      by using one''s burning fighting
+      spirit as armor.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452867
-    m_Localized: Test
+  - m_Id: 35763007403073554
+    m_Localized: 'A large foot appears in the sky and stomps on the
+
+      opponent
+      in this enhanced version of Sumo Stomp.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452868
-    m_Localized: Test
+  - m_Id: 35763007403073555
+    m_Localized: 'Steal the ball with a fiery slide tackle.
+
+      Its fierce momentum
+      is nigh unstoppable.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452869
-    m_Localized: Test
+  - m_Id: 35763007403073556
+    m_Localized: 'Rush at the goal like a destructive tornado.
+
+      The move is
+      difficult to control, but will never miss.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452870
-    m_Localized: Test
+  - m_Id: 35763007403073557
+    m_Localized: 'Charge headlong into the opponent with steam rising
+
+      from
+      the head like a raging runaway train.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452871
-    m_Localized: Test
+  - m_Id: 35763007403073558
+    m_Localized: 'Use crossed feet to cleave through the ball and
+
+      launch it
+      like a beam of light forged from sheer
+
+      fighting spirit.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452872
-    m_Localized: Test
+  - m_Id: 35763007403073559
+    m_Localized: 'Whip a red cape to provoke the opponent and easily
+
+      step
+      away when they charge madly.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452873
-    m_Localized: Test
+  - m_Id: 35763007403073560
+    m_Localized: 'Strike from above with a thunderous kick
+
+      to send the ball
+      crashing like a solar blade
+
+      tearing through storm clouds.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452874
-    m_Localized: Test
+  - m_Id: 35763007403073561
+    m_Localized: 'Two players deliver perfectly-timed kicks in unison
+
+      that
+      greatly increase the ball''s conductivity.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452875
-    m_Localized: Test
+  - m_Id: 35763007403073562
+    m_Localized: 'Shatter the pitch with a brilliant flash,
+
+      blinding all in
+      your path and charging ahead.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452876
-    m_Localized: Test
+  - m_Id: 35763007403073563
+    m_Localized: 'Spinning in a flash of light, the ball is stolen
+
+      in the
+      blink of an eye, leaving opponents dazzled.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452877
-    m_Localized: Test
+  - m_Id: 35763007403073564
+    m_Localized: 'Spin the ball to generate a cyclone that kicks up
+
+      dirt to
+      blind the opponent.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452878
-    m_Localized: Test
+  - m_Id: 35763007403073565
+    m_Localized: 'A flame-clad ball transforms into a phoenix
+
+      that dives directly
+      for the goal!'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452879
-    m_Localized: Test
+  - m_Id: 35763007403073566
+    m_Localized: 'Accelerate to full speed to execute a super dribble
+
+      move
+      that can''t be stopped.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452880
-    m_Localized: Test
+  - m_Id: 35763007403073567
+    m_Localized: 'Dominate the pitch with a foreboding
+
+      threat reminiscent
+      of the galaxy and
+
+      shoot with a comet-like high kick.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452881
-    m_Localized: Test
+  - m_Id: 35763007403073568
+    m_Localized: 'Hit the ground with full strength to make stone
+
+      pillars
+      jut out and send the opponent flying.'
     m_Metadata:
       m_Items: []
-  - m_Id: 24220025084452882
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452883
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452884
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452885
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452886
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452887
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452888
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452889
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452890
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452891
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452892
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452893
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452894
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452895
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452896
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452897
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452898
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452899
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452900
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452901
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025084452902
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647168
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647169
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647170
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647171
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647172
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647173
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647174
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647175
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647176
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647177
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647178
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647179
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647180
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647181
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647182
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647183
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647184
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647185
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647186
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647187
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647188
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647189
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24220025088647190
-    m_Localized: Test
+  - m_Id: 35763007403073569
+    m_Localized: 'A high-speed, low-flying diving header
+
+      which requires excellent
+      synergy.'
     m_Metadata:
       m_Items: []
   references:

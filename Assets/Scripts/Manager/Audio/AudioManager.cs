@@ -15,6 +15,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource sourceSfxLoop;
     private float factorSfxLoop = 0.7f;
 
+    public AudioSource SourceSfx => sourceSfx;
+
     private readonly Dictionary<string, AudioClip> audioClipCache = new();
 
     private void Awake()

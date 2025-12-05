@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 2
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 83
   Control: 86
   Technique: 88
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 85
   Intelligence: 107
   MoveIds:
-  - electric_charge
-  - sequoia
-  - lightning_elastico
-  - electron_zone
+  - dark_mist
+  - diabolical_cut
+  - ignited_steal
+  - plasma_cut
   MoveLvs: 050000000f000000190000002d000000

@@ -68,10 +68,19 @@ public class FieldDuelHandler : IDuelHandler
             EndDuel(duel.LastDefense, duel.LastOffense);
     }
 
-    public void EndDuel(DuelParticipant winner, DuelParticipant loser) 
+    public async void EndDuel(DuelParticipant winner, DuelParticipant loser) 
     { 
-        if (winner.Move != null)
+        if (winner.Move != null) 
+        {
             winner.Character.ModifyBattleStat(Stat.Tp, -winner.Move.Cost);
+            if (winner.Action == DuelAction.Offense) 
+                BattleUIManager.Instance.SetDuelParticipant(winner.Character, duel.OffenseSupports);
+            else
+                BattleUIManager.Instance.SetDuelParticipant(winner.Character, duel.DefenseSupports);
+            
+            await DuelManager.Instance.TryPlayMoveVideo(winner);
+        }
+
 
         if (winner.Character.IsOnUsersTeam())
             BattleEffectManager.Instance.PlayDuelWinEffect(winner.Character.transform); 

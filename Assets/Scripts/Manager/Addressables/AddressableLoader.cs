@@ -88,4 +88,9 @@ public static class AddressableLoader
 
     public static string GetTeamEmblemAddress(string id) =>
         $"{AddressableConfig.TeamEmblemPath}{AddressableConfig.PathSeparator}{id}";
+
+    public static string GetMoveVideoAddress(string id) =>
+        $"{AddressableConfig.MoveVideoPath}{AddressableConfig.PathSeparator}{id}";
+    public static string GetMoveVideoVariantAddress(string id, string variant) =>
+        $"{AddressableConfig.MoveVideoPath}{AddressableConfig.PathSeparator}{id}{AddressableConfig.PathSeparator}{variant}";
 }

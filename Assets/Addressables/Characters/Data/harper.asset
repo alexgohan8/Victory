@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 3
   Position: 0
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 121
   Control: 115
   Technique: 105
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 85
   Intelligence: 93
   MoveIds:
-  - killer_slash
-  - shadow_clone
-  - blizzard_overhead
-  - genocide_overhead
+  - unify
+  - inazuma_break
+  - fire_tornado_dd
+  - cyclone_sprint
   MoveLvs: 050000000f000000190000002d000000

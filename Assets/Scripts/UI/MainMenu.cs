@@ -25,9 +25,9 @@ public class MainMenu : MonoBehaviour
     public void OnButtonDreamMatchTapped() 
     {
         AudioManager.Instance.PlaySfx("sfx-menu_tap");
-        BattleArgs.TeamId0 = "faith_selection";
-        BattleArgs.TeamId1 = "crimson_selection";
-        BattleArgs.BallId = "crimson";
+        BattleArgs.TeamId0 = "victory_national";
+        BattleArgs.TeamId1 = "sun_matador";
+        BattleArgs.BallId = "default";
         BattleArgs.BattleType = BattleType.Battle;
 
         SceneLoader.UnloadMainMenu();

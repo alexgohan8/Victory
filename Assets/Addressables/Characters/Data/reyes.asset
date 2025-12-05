@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 3
   Position: 1
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 100
   Control: 108
   Technique: 105
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 81
   Intelligence: 97
   MoveIds:
-  - flame_feint
-  - lightning_elastico
-  - burn_zone
-  - salamander_dash
+  - heavenly_thunder
+  - super_elastico
+  - ball_lightning
+  - circus_block
   MoveLvs: 050000000f000000190000002d000000

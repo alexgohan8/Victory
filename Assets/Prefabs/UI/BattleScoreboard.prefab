@@ -642,6 +642,8 @@ GameObject:
   - component: {fileID: 669433217550469470}
   - component: {fileID: 5919165751159176524}
   - component: {fileID: 505884464115261136}
+  - component: {fileID: 2974924575279138594}
+  - component: {fileID: 7119221436877791834}
   m_Layer: 5
   m_Name: BattleScoreboard
   m_TagString: Untagged
@@ -727,6 +729,32 @@ MonoBehaviour:
   teamEmblemAway: {fileID: 3042636152009602855}
   teamNameHome: {fileID: 7300354387046526788}
   teamNameAway: {fileID: 5168762000276727122}
+  canvasGroup: {fileID: 0}
+--- !u!225 &2974924575279138594
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3939218464629949272}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &7119221436877791834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3939218464629949272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc762c695b9981e4aa171864dd0d3b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 2974924575279138594}
 --- !u!1 &4451464773645335821
 GameObject:
   m_ObjectHideFlags: 0

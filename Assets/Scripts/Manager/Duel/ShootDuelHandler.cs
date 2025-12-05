@@ -23,14 +23,7 @@ public class ShootDuelHandler : IDuelHandler
 
     public void AddParticipant(DuelParticipant participant) 
     {
-        bool isFirstParticipant = duel.Participants.Count == 0;
-        bool isCategoryShoot = participant.Category == Category.Shoot;
         bool isActionOffense = participant.Action == DuelAction.Offense;
-
-        if (isFirstParticipant)
-            StartBallTravel(participant);
-        else if (isCategoryShoot) 
-            PossessionManager.Instance.SetLastCharacter(participant.Character); //keep track of the last character in the shoot chain to determine who scored
 
         duel.Participants.Add(participant);
         LogManager.Trace($"[ShootDuelHandler] AddParticipant {participant.Character.CharacterId}");
@@ -56,12 +49,24 @@ public class ShootDuelHandler : IDuelHandler
     #endregion
 
     #region Offense Logic
-    private void HandleOffense(DuelParticipant offense) 
+    private async void HandleOffense(DuelParticipant offense) 
     {
+        bool isFirstParticipant = duel.Participants.Count == 1;
+
         duel.OffensePressure += offense.Damage;
         LogParticipantAction(offense);
+
+        await DuelManager.Instance.TryPlayMoveVideo(offense);
+
         HandleShootSfx(offense);
-        BattleManager.Instance.Ball.ResumeTravel();
+
+        if (isFirstParticipant)
+            StartBallTravel(offense);
+        else
+            PossessionManager.Instance.SetLastCharacter(offense.Character); //keep track of the last character in the shoot chain to determine who scored
+
+        if (!isFirstParticipant)
+            BattleManager.Instance.Ball.ResumeTravel();
     }
     #endregion
 
@@ -83,7 +88,7 @@ public class ShootDuelHandler : IDuelHandler
             HandleDefensePartial(offense, defense, isCategoryCatch);
     }
 
-    private void HandleDefenseFull(DuelParticipant offense, DuelParticipant defense, bool isCategoryCatch)
+    private async void HandleDefenseFull(DuelParticipant offense, DuelParticipant defense, bool isCategoryCatch)
     {
         LogManager.Info($"[ShootDuelHandler] {defense.Character.CharacterId} stopped the attack.");
 
@@ -91,15 +96,27 @@ public class ShootDuelHandler : IDuelHandler
         offense.Character.ApplyStatus(StatusEffect.Stunned);
         PossessionManager.Instance.GiveBallToCharacter(defense.Character);
 
+        if (isCategoryCatch)
+            await DuelManager.Instance.TryPlayMoveVideoCatch(defense, true);
+        else 
+            await DuelManager.Instance.TryPlayMoveVideoBlock(defense, true);
+
         EndDuel(defense, offense);
         BattleManager.Instance.Ball.EndTravel();
     }
 
-    private void HandleDefensePartial(DuelParticipant offense, DuelParticipant defense, bool isCategoryCatch)
+    private async void HandleDefensePartial(DuelParticipant offense, DuelParticipant defense, bool isCategoryCatch)
     {
         LogManager.Info($"[ShootDuelHandler] Partial block.");
 
         defense.Character.ApplyStatus(StatusEffect.Stunned);
+
+
+        if (isCategoryCatch)
+            await DuelManager.Instance.TryPlayMoveVideoCatch(defense, false);
+        else 
+            await DuelManager.Instance.TryPlayMoveVideoBlock(defense, false);
+
         BattleManager.Instance.Ball.ResumeTravel();
 
         if (isCategoryCatch)
@@ -107,6 +124,7 @@ public class ShootDuelHandler : IDuelHandler
             LogManager.Info("[ShootDuelHandler] Keeper fails to catch the ball");
             EndDuel(offense, defense);
         }
+
     }
     #endregion
 

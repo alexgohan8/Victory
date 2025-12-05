@@ -24,7 +24,7 @@ public class DebugMainMenu : MonoBehaviour
     private void HandleButton1() {
         BattleArgs.TeamId0 = "victory_national";
         BattleArgs.TeamId1 = "sun_matador";
-        BattleArgs.BallId = "crimson";
+        BattleArgs.BallId = "default";
         BattleArgs.BattleType = BattleType.Battle;
 
         SceneLoader.UnloadDebugMainMenu();

@@ -36,5 +36,5 @@ Here are some screenshots to give you a taste of the action:
 
 ---
 
-> *TODO
+> *Vamos Victory!
 

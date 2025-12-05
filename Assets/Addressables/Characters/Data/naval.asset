@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 3
   Position: 2
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 79
   Control: 83
   Technique: 81
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 85
   Intelligence: 114
   MoveIds:
-  - electric_charge
-  - thunder_impact
-  - lightning_elastico
-  - electron_zone
+  - matador_feint
+  - circus_block
+  - cyclone
+  - twin_sun_smash
   MoveLvs: 050000000f000000190000002d000000

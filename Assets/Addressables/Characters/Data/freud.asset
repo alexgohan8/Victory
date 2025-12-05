@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 1
   Position: 1
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 100
   Control: 108
   Technique: 105
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 81
   Intelligence: 97
   MoveIds:
-  - swift_feint
-  - shining_scramble
-  - typhoon_zone
-  - wind_tornado
+  - circus_block
+  - clone_faker
+  - hurricane_arrows
+  - afterimage
   MoveLvs: 050000000f000000190000002d000000

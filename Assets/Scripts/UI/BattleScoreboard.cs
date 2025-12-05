@@ -13,6 +13,7 @@ public class BattleScoreboard : MonoBehaviour
     [SerializeField] private Image teamEmblemAway;
     [SerializeField] private TMP_Text teamNameHome;
     [SerializeField] private TMP_Text teamNameAway;
+    [SerializeField] private CanvasGroup canvasGroup;
 
     private Dictionary<TeamSide, TMP_Text> scoreTextDict;
     private Dictionary<TeamSide, Image> teamEmblemDict;

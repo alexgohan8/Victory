@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 3
   Position: 2
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 83
   Control: 86
   Technique: 88
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 85
   Intelligence: 107
   MoveIds:
-  - dark_block
-  - glacial_slide
-  - demon_dash
-  - no_return
+  - vigorous_stomp
+  - body_shield
+  - dash_accelerator
+  - sigma_zone
   MoveLvs: 050000000f000000190000002d000000
