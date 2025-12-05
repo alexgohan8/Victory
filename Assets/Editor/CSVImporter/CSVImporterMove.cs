@@ -65,7 +65,8 @@ public class CSVImporterMove
             moveData.Category      = EnumManager.StringToEnum<Category>(values[categoryIndex].Trim());
             moveData.Element       = EnumManager.StringToEnum<Element>(values[elementIndex].Trim());
             moveData.Trait         = EnumManager.StringToEnum<Trait>(values[traitIndex].Trim());
-            moveData.GrowthType    = EnumManager.StringToEnum<GrowthType>(values[growthTypeIndex].Trim());
+            //moveData.GrowthType    = EnumManager.StringToEnum<GrowthType>(values[growthTypeIndex].Trim());
+            moveData.GrowthType    = GrowthType.Uraga;
             moveData.GrowthRate    = EnumManager.StringToEnum<GrowthRate>(values[growthRateIndex].Trim());
 
             moveData.Cost          = int.Parse(values[costIndex].Trim());

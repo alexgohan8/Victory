@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 0
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 104
   Control: 101
   Technique: 91
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 75
   Intelligence: 90
   MoveIds:
-  - fire_shot
-  - pyro_protector
-  - firetrail
-  - heat_burst
+  - scorching_tackle
+  - super_sumo_stomp
+  - runaway_train
+  - sunshine_splitter
   MoveLvs: 050000000f000000190000002d000000

@@ -46,4 +46,12 @@ namespace Simulation.Enums.Move
         Galaxy,
         Legend
     }
+
+    public enum MoveAnimationVariant 
+    {
+        Default,
+        Block,
+        Success,
+        Failure
+    }
 }

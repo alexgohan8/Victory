@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 1
   Position: 2
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 76
   Control: 79
   Technique: 77
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 81
   Intelligence: 110
   MoveIds:
-  - shell_wall
-  - stone_zone
-  - water_walk
-  - swim_slide
+  - flame_dance
+  - super_elastico
+  - whirlwind
+  - galatyn
   MoveLvs: 050000000f000000190000002d000000

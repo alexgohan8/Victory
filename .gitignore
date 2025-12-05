@@ -44,6 +44,8 @@ sysinfo.txt
 *.MP4
 *.mov
 *.MOV
+*.webm
+*.WEBM
 
 # Local build outputs (top-level)
 Build/

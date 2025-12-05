@@ -498,6 +498,8 @@ GameObject:
   - component: {fileID: 8824046729393518461}
   - component: {fileID: 119261382008719809}
   - component: {fileID: 8309840351612642967}
+  - component: {fileID: 2498178535140675947}
+  - component: {fileID: 6534057957395466880}
   m_Layer: 5
   m_Name: BattleTimer
   m_TagString: Untagged
@@ -650,3 +652,28 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!225 &2498178535140675947
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6007360600482476216}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &6534057957395466880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6007360600482476216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc762c695b9981e4aa171864dd0d3b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 2498178535140675947}

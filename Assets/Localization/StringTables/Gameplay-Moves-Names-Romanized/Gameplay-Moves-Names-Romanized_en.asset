@@ -18,436 +18,264 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 14946818145918976
-    m_Localized: Fire Shot
+  - m_Id: 35899041650581504
+    m_Localized: Grand Fire
     m_Metadata:
       m_Items: []
-  - m_Id: 14946818150113280
-    m_Localized: Angel Dribble
+  - m_Id: 35899041650581505
+    m_Localized: Beast Fang
     m_Metadata:
       m_Items: []
-  - m_Id: 14946818150113281
-    m_Localized: Earth Defense
+  - m_Id: 35899041650581506
+    m_Localized: Tsumuji
     m_Metadata:
       m_Items: []
-  - m_Id: 14946818150113282
-    m_Localized: Sea Anemone
+  - m_Id: 35899041650581507
+    m_Localized: Galatyn
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401984
-    m_Localized: Heat Burst
+  - m_Id: 35899041650581508
+    m_Localized: God Hand V
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401985
-    m_Localized: Explosive Break
+  - m_Id: 35899041650581509
+    m_Localized: Tamashii The Hand
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401986
-    m_Localized: Ice Impact
+  - m_Id: 35899041650581510
+    m_Localized: Nekketsu Punch
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401987
-    m_Localized: Penguin Breaking
+  - m_Id: 35899041650581511
+    m_Localized: Burning Catch
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401988
-    m_Localized: Blizzard Overhead
+  - m_Id: 35899041650581512
+    m_Localized: Procyon Net
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401989
-    m_Localized: Holy Sword
+  - m_Id: 35899041650581513
+    m_Localized: Hitotsu
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401990
-    m_Localized: Divine Rain
+  - m_Id: 35899041650581514
+    m_Localized: Inazuma Break
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401991
-    m_Localized: Overlord Overhead
+  - m_Id: 35899041650581515
+    m_Localized: Fire Tornado DD
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401992
-    m_Localized: Killer Slash
+  - m_Id: 35899041650581516
+    m_Localized: Flame Dance
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401993
-    m_Localized: Death Cross
+  - m_Id: 35899041650581517
+    m_Localized: Spiral Draw
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401994
-    m_Localized: Genocide Overhead
+  - m_Id: 35899041650581518
+    m_Localized: Gou no Issen
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401995
-    m_Localized: Hurricane Kick
+  - m_Id: 35899041650581519
+    m_Localized: Shunrai
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401996
-    m_Localized: Wind Tornado
+  - m_Id: 35899041650581520
+    m_Localized: Cyclone
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401997
-    m_Localized: Flying Break
+  - m_Id: 35899041650581521
+    m_Localized: Tenkuu Thunder
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401998
-    m_Localized: Axe Kick
+  - m_Id: 35899041650581522
+    m_Localized: Super Elastico
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703401999
-    m_Localized: Forest Burst
+  - m_Id: 35899041650581523
+    m_Localized: Round Spark
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402000
-    m_Localized: Nature Attack
+  - m_Id: 35899041650581524
+    m_Localized: Block Circus
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402001
-    m_Localized: Rock Kick
+  - m_Id: 35899041650581525
+    m_Localized: Bunshin Feint
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402002
-    m_Localized: Sand Tornado
+  - m_Id: 35899041650581526
+    m_Localized: Guruguru Shoot
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402003
-    m_Localized: Boulder volley
+  - m_Id: 35899041650581527
+    m_Localized: Rolling Slide
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402004
-    m_Localized: Shock Kick
+  - m_Id: 35899041650581528
+    m_Localized: Zanzou
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402005
-    m_Localized: Thunder Impact
+  - m_Id: 35899041650581529
+    m_Localized: Hanafubuki
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402006
-    m_Localized: Overdrive
+  - m_Id: 35899041650581530
+    m_Localized: Killer Fields
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402007
-    m_Localized: Aqua Splash
+  - m_Id: 35899041650581531
+    m_Localized: Sigma Zone
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402008
-    m_Localized: Aggressive Wave
+  - m_Id: 35899041650581532
+    m_Localized: No Escape
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402009
-    m_Localized: Sea Emperor
+  - m_Id: 35899041650581533
+    m_Localized: Asoko ni Onigiri
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402010
-    m_Localized: Flame Feint
+  - m_Id: 35899041650581534
+    m_Localized: Angel Ball
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402011
-    m_Localized: Firetrail
+  - m_Id: 35899041650581535
+    m_Localized: Harvest
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402012
-    m_Localized: Salamander Dash
+  - m_Id: 35899041654775808
+    m_Localized: Oraora Shikofumi
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402013
-    m_Localized: Ice Skating
+  - m_Id: 35899041654775809
+    m_Localized: The Wall
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402014
-    m_Localized: Snow Barrage
+  - m_Id: 35899041654775810
+    m_Localized: The Mountain
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402015
-    m_Localized: Wolf Dash
+  - m_Id: 35899041654775811
+    m_Localized: Body Shield
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402016
-    m_Localized: Paradise Regained
+  - m_Id: 35899041654775812
+    m_Localized: Dancing Turtle
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402017
-    m_Localized: Shining Scramble
+  - m_Id: 35899041654775813
+    m_Localized: Kaijin The Quake
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402018
-    m_Localized: Evil Dribble
+  - m_Id: 35899041654775814
+    m_Localized: Dash Storm
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402019
-    m_Localized: Shadow Clone
+  - m_Id: 35899041654775815
+    m_Localized: Dark Mist
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402020
-    m_Localized: Demon Dash
+  - m_Id: 35899041654775816
+    m_Localized: Demon Cut
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402021
-    m_Localized: Swift Feint
+  - m_Id: 35899041654775817
+    m_Localized: Spinning Cut
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402022
-    m_Localized: Peacock Wings
+  - m_Id: 35899041654775818
+    m_Localized: Volcano Cut
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402023
-    m_Localized: Gale Scramble
+  - m_Id: 35899041654775819
+    m_Localized: Hurricane Arrow
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402024
-    m_Localized: Petal Dribble
+  - m_Id: 35899041654775820
+    m_Localized: Tenchi Raimei
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402025
-    m_Localized: Vine Swing
+  - m_Id: 35899041654775821
+    m_Localized: Atomic Flare
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402026
-    m_Localized: Eco Elastico
+  - m_Id: 35899041654775822
+    m_Localized: Spark Edge Dribble
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402027
-    m_Localized: Mole Dribble
+  - m_Id: 35899041654775823
+    m_Localized: The Ikaros
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402028
-    m_Localized: World Tour
+  - m_Id: 35899041654775824
+    m_Localized: Heat Tackle
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402029
-    m_Localized: Gaia Elastico
+  - m_Id: 35899041654775825
+    m_Localized: Super Shikofumi
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402030
-    m_Localized: Bolt Feint
+  - m_Id: 35899041654775826
+    m_Localized: Ignite Steal
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402031
-    m_Localized: Transmission
+  - m_Id: 35899041654775827
+    m_Localized: Spinning Shoot
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402032
-    m_Localized: Lightning Elastico
+  - m_Id: 35899041654775828
+    m_Localized: Dash Train
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402033
-    m_Localized: Tide Feint
+  - m_Id: 35899041654775829
+    m_Localized: X Blast
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402034
-    m_Localized: Water Walk
+  - m_Id: 35899041654775830
+    m_Localized: Matador Feint
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402035
-    m_Localized: Seaside Dream
+  - m_Id: 35899041654775831
+    m_Localized: Sunshine Blade
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402036
-    m_Localized: Blaze Defense
+  - m_Id: 35899041654775832
+    m_Localized: Souhi Yuuseidan
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402037
-    m_Localized: Pyro Protector
+  - m_Id: 35899041654775833
+    m_Localized: Overglow
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402038
-    m_Localized: Burn Zone
+  - m_Id: 35899041654775834
+    m_Localized: Photon Crash
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402039
-    m_Localized: Ice Block
+  - m_Id: 35899041654775835
+    m_Localized: Tatsumaki Senpuu
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402040
-    m_Localized: Snow House Shield
+  - m_Id: 35899041654775836
+    m_Localized: The Phoenix
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402041
-    m_Localized: Glacial Slide
+  - m_Id: 35899041654775837
+    m_Localized: Dash Accel
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402042
-    m_Localized: Saint Cut
+  - m_Id: 35899041654775838
+    m_Localized: Ryuusei Blade
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402043
-    m_Localized: Sacred Shield
+  - m_Id: 35899041654775839
+    m_Localized: Gravestone
     m_Metadata:
       m_Items: []
-  - m_Id: 24356072703402044
-    m_Localized: White Light
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402045
-    m_Localized: Dark Block
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402046
-    m_Localized: Poison Fog
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402047
-    m_Localized: No Return
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402048
-    m_Localized: Breeze Defense
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402049
-    m_Localized: Sprinter Cutter
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402050
-    m_Localized: Typhoon Zone
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402051
-    m_Localized: The Tree
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402052
-    m_Localized: Flower Cutter
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402053
-    m_Localized: Sequoia
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402054
-    m_Localized: Sand Guard
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072703402055
-    m_Localized: Stone Zone
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596288
-    m_Localized: Electric Charge
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596289
-    m_Localized: Plasma Shock
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596290
-    m_Localized: Electron Zone
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596291
-    m_Localized: Shell Wall
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596292
-    m_Localized: Man-Eater Whale
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596293
-    m_Localized: Swim Slide
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596294
-    m_Localized: Ash Spirits
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596295
-    m_Localized: Infernal World
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596296
-    m_Localized: Blazing Mirage
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596297
-    m_Localized: Frostfall
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596298
-    m_Localized: Frozen World
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596299
-    m_Localized: Eternal Frost
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596300
-    m_Localized: The Sun
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596301
-    m_Localized: Reflection
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596302
-    m_Localized: Salvation
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596303
-    m_Localized: The moon
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596304
-    m_Localized: Other World
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596305
-    m_Localized: Extinction
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596306
-    m_Localized: Storm Spirits
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596307
-    m_Localized: 'Extreme Cyclone '
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596308
-    m_Localized: Tempest Trap
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596309
-    m_Localized: Nature Spirits
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596310
-    m_Localized: Vine Bind
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596311
-    m_Localized: Forest Trap
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596312
-    m_Localized: Canyon Catch
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596313
-    m_Localized: Desert World
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596314
-    m_Localized: Finisterra
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596315
-    m_Localized: Magnet Catch
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596316
-    m_Localized: Wire World
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596317
-    m_Localized: Zap Trap
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596318
-    m_Localized: Deep World
-    m_Metadata:
-      m_Items: []
-  - m_Id: 24356072707596319
-    m_Localized: River Drift
+  - m_Id: 35899041654775840
+    m_Localized: Kattobi Defense
     m_Metadata:
       m_Items: []
   references:

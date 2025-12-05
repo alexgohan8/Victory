@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 0
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 114
   Control: 108
   Technique: 98
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 78
   Intelligence: 86
   MoveIds:
-  - mole_dribble
-  - wind_tornado
-  - stone_zone
-  - world_tour
+  - meteor_blade
+  - the_ikaros
+  - ignited_steal
+  - galatyn
   MoveLvs: 050000000f000000190000002d000000

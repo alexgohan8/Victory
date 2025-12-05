@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 1
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 90
   Control: 104
   Technique: 105
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 75
   Intelligence: 93
   MoveIds:
-  - petal_dribble
-  - shadow_clone
-  - sequoia
-  - vine_swing
+  - the_phoenix
+  - whirlwind_twister
+  - plasma_cut
+  - photon_crash
   MoveLvs: 050000000f000000190000002d000000

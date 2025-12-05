@@ -1,0 +1,440 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Moves-Videos
+  m_EditorClassIdentifier: 
+  m_GroupName: Moves-Videos
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ca497e1b61edca752b509488650cfe07
+  m_SerializeEntries:
+  - m_GUID: 034b1ade2a45abefd8f8ddaaf8cd9657
+    m_Address: moves-videos-volcano_cut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 079454c523c7965f9bda0007e544c7f7
+    m_Address: moves-videos-the_mountain-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08562476ae100749aae3dd08ba28ce6d
+    m_Address: moves-videos-vigorous_stomp-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 086a47f98121bbf969db5b41e0e26007
+    m_Address: moves-videos-sigma_zone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 095b2d764af9c39e980d60648f324b15
+    m_Address: moves-videos-thundertaker
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 099a8d51c2f69660ab4d4afab6928e21
+    m_Address: moves-videos-pancake_defence
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e207c98c3206e522a751de1400f129c
+    m_Address: moves-videos-god_hand_v-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 159668f2c815ed21da515f3ca418d6ae
+    m_Address: moves-videos-harvest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c6cc22cd53b914f7904b1ad4de936ee
+    m_Address: moves-videos-fire_tornado_dd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ccbb8e1649562272b77a9277af6ca8f
+    m_Address: moves-videos-whirlwind-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cdabeb73dd66602f8f8948143d820bc
+    m_Address: moves-videos-volcano_cut-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2386f8566a8e71095ab368afd9fa0851
+    m_Address: moves-videos-look_a_rice_ball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28755cf8f492f71b98c0ab337a182313
+    m_Address: moves-videos-spinning_cut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2916e713493e5c37da2cf003913dfe3b
+    m_Address: moves-videos-cyclone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cb3048741122ad65810c59fa7f6b3f3
+    m_Address: moves-videos-god_hand_v-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e87f304edb1a5eed9c95aea891c6843
+    m_Address: moves-videos-spinning_cut-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33a47d961733e18558b04b5237c001f8
+    m_Address: moves-videos-the_ikaros
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38fc75072f3e1bc3eb5dfe90ab6f9194
+    m_Address: moves-videos-meteor_blade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39396f2a679ad96b1a9fcdfdbe1c79d6
+    m_Address: moves-videos-vigorous_stomp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a25a1dca54221336886e9e95ac3ea27
+    m_Address: moves-videos-flower_power-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 449bee497cfc39cd89848af33b9c23a9
+    m_Address: moves-videos-spinning_shot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47ddcd64a3efa0a379083432a7b77e7c
+    m_Address: moves-videos-grand_glow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a96255d46ecde02e81e7442f076c352
+    m_Address: moves-videos-beast_fang-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53476f0e2d527f88b8ddf0218e744530
+    m_Address: moves-videos-hurricane_arrows
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 545356363a945bd2a8291e6364f8320f
+    m_Address: moves-videos-beast_fang-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5474b4b3282a9b597bbd4fac2456fe4d
+    m_Address: moves-videos-force_flash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f0f579fe3b00d19181bb69bcd68be9e
+    m_Address: moves-videos-super_elastico
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f16ff5ba786a0def8d3d41815d972e2
+    m_Address: moves-videos-galatyn-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61f181a79c2645ed48771dd65d1f60c2
+    m_Address: moves-videos-inazuma_break
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 626e985917faab9bcacff5ffcaac9e4c
+    m_Address: moves-videos-whirlwind-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b2eedc462f3976c81a5c4e9bbf9ff5
+    m_Address: moves-videos-rolling_slide
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7064f517bf2dadd27876e836437043ea
+    m_Address: moves-videos-cyclone_sprint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7105ad120b7d0ce668ff27edea70441a
+    m_Address: moves-videos-fireball_knuckle-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7175dda4a468763798f68737ccacf118
+    m_Address: moves-videos-fireball_knuckle-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72e228f64ba2af5e58d0a68e609a21a2
+    m_Address: moves-videos-x_blast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77b13811033c5a2ffa62532c9d8d2290
+    m_Address: moves-videos-combustion_catch-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 782234bbdf4aec715b4f2daaf154bd64
+    m_Address: moves-videos-dash_accelerator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79c88a562a0a4298283edb25179ceaa9
+    m_Address: moves-videos-dark_mist
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b1bdb6fddccf061c8bec3d70f25ddbf
+    m_Address: moves-videos-heavenly_thunder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c9a28bb89b3e2bf8a6eaaa5d4b60e1c
+    m_Address: moves-videos-whirlwind_twister
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d5b99d04fc2f98c39c7336edc56029a
+    m_Address: moves-videos-swirly_shot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eb905b03f01d24208a5bbfed2cf75ff
+    m_Address: moves-videos-matador_feint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80b622ee1ffd45e508bf00e4add8c9cd
+    m_Address: moves-videos-afterimage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80c840906f9e237bc87fa22c36509ef5
+    m_Address: moves-videos-the_mountain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 826cc7a4da6301d049360f4ba5d57c5f
+    m_Address: moves-videos-soul_hand-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82767fb766278593d971fc446e13cb84
+    m_Address: moves-videos-spring_thunderclap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c42db93bc30ddd2fb33f17d1c152ddd
+    m_Address: moves-videos-super_sumo_stomp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c48bdb5d4226afc59867c05c608b598
+    m_Address: moves-videos-procyon_net-failure
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8df092cb49871b8729be66d987df3978
+    m_Address: moves-videos-diabolical_cut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 914421e4c7948a042ba9e7e86fe174a6
+    m_Address: moves-videos-twirling_turtle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 917fe3d601e3cafcbb1af12a94ae751a
+    m_Address: moves-videos-flower_power-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9222370045dd31cd7ae9e77b1cc7588a
+    m_Address: moves-videos-combustion_catch-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9500e24ed69b5a6809489ebbf4dd6872
+    m_Address: moves-videos-dash_storm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 971ade253c188fa3593cb337be3c3c2f
+    m_Address: moves-videos-flame_dance
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a1a990687c5e6edfb5a1263f3b7ef42
+    m_Address: moves-videos-galatyn-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ab95136a6eb3d19aa56a9426739512d
+    m_Address: moves-videos-circus_block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1346aabcbdf9dd3f8d4697044ba32be
+    m_Address: moves-videos-body_shield
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a56a0a271ac8df255a58cf7c4224920d
+    m_Address: moves-videos-the_phoenix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a67cb112fef3849ddb30dd0912eb718a
+    m_Address: moves-videos-angel_ball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1f51f3e3d1990b1fb89b02d4759fb24
+    m_Address: moves-videos-runaway_train
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2da9a6bb21f844ba944b9ec1d3497c9
+    m_Address: moves-videos-unify
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b48a12e08875b60f09a038b9c21ae8ec
+    m_Address: moves-videos-procyon_net-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b626833a71804fea893020ed380595e2
+    m_Address: moves-videos-twin_sun_smash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6cc050560aa8b16fb0c73d067dadfca
+    m_Address: moves-videos-ignited_steal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8300d520c0466ed490b2cecf5301c0c
+    m_Address: moves-videos-dark_mist-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc8bf72a16e61d8948ffe9e5cf9fe3a4
+    m_Address: moves-videos-pancake_defence-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c413f4fb06457dea28d16da422faebff
+    m_Address: moves-videos-super_sumo_stomp-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4886295b987f05ddad44d2e0e1f63d2
+    m_Address: moves-videos-soul_hand-success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7da133fab49c40f185a2da06479ff52
+    m_Address: moves-videos-plasma_cut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cebbc5694c1c36bebb2eced0ac23f761
+    m_Address: moves-videos-kraken_seaquake
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0cbcc7a1d4bae914abc81a31e69ab0a
+    m_Address: moves-videos-the_wall-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d95703377b6d6b08881802a2981c0423
+    m_Address: moves-videos-field_of_force
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc30cf783bec1e434bba0d342d92af5c
+    m_Address: moves-videos-no_escape
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2d3e33b5f49bf81ebe51cfec6a8cbef
+    m_Address: moves-videos-diabolical_cut-block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e344595bd9f16b542b5110c017079fac
+    m_Address: moves-videos-ball_lightning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e42921d186f5e31109bda76eaca6a889
+    m_Address: moves-videos-clone_faker
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edc18c75f86e7efc5a4df57b9529ca2a
+    m_Address: moves-videos-atomic_flare
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef1d2b88cc943827ebbccce40c0f657e
+    m_Address: moves-videos-sunshine_splitter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2a74526886045e2d8fafe2df662696a
+    m_Address: moves-videos-the_wall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f869ca2c9f191ff89b38f760ca15f855
+    m_Address: moves-videos-photon_crash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8920776570f6ea068c8c9534ad1c59c
+    m_Address: moves-videos-gravestone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb31fdb2e189f0c70893f42f84605ec4
+    m_Address: moves-videos-scorching_tackle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdfb51411d75240758178add81304d54
+    m_Address: moves-videos-grand_fire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 238c8803a8a1b023082cd8ccb30f5946, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 867c62788b34f02829a5f3ff2e1ebfef, type: 2}
+    - {fileID: 11400000, guid: bb96007262d6d6cf5af5f6c44e8e9e4e, type: 2}

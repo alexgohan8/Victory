@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 3
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 90
   Control: 97
   Technique: 91
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 111
   Intelligence: 97
   MoveIds:
-  - the_moon
-  - poison_fog
-  - eternal_frost
-  - extinction
+  - whirlwind
+  - combustion_catch
+  - god_hand_v
+  - soul_hand
   MoveLvs: 050000000f000000190000002d000000

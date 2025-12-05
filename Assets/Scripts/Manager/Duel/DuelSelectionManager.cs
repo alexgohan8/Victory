@@ -187,7 +187,10 @@ public class DuelSelectionManager : MonoBehaviour
                 );
             }
         }
-        BattleManager.Instance.Unfreeze();
+
+        if(!VideoManager.Instance.IsPlaying) 
+            BattleManager.Instance.Unfreeze();
+        
         BattleManager.Instance.SetBattlePhase(BattlePhase.Battle);
         OnSelectionsComplete?.Invoke();
     }

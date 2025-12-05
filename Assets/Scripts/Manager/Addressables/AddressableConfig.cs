@@ -14,6 +14,9 @@ public static class AddressableConfig
     [Header("Team Paths")]
     public const string TeamEmblemPath = "teams-emblems";
 
+    [Header("Move Paths")]
+    public const string MoveVideoPath = "moves-videos";
+
     [Header("Path Settings")]
     public const string PathSeparator = "-";
 

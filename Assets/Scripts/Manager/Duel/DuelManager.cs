@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Simulation.Enums.Character;
 using Simulation.Enums.Move;
 using Simulation.Enums.Duel;
@@ -31,6 +32,18 @@ public class DuelManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         duel = new Duel();
+        BattleEvents.OnBattleEnd += HandleBattleEnd;
+    }
+
+    private void OnDestroy()
+    {
+        BattleEvents.OnBattleEnd -= HandleBattleEnd;
+    }
+
+    private void HandleBattleEnd() 
+    {
+        if(!duel.IsResolved)
+            CancelDuel();
     }
 
     public void AddParticipant(DuelParticipant participant)
@@ -404,6 +417,32 @@ public class DuelManager : MonoBehaviour
             $"{participant.Character.TeamSide}", this);
         */
         AddParticipant(participant);
+    }
+    #endregion
+
+    #region Move Cutscene
+    public async Task TryPlayMoveVideo(DuelParticipant participant)
+    {
+        if (participant.Move == null) return;
+        await VideoManager.Instance.PlayMoveVideoAsync(participant.Move.MoveId, null, false);
+    }
+
+    public async Task TryPlayMoveVideoBlock(DuelParticipant participant, bool isSuccess)
+    {
+        if (participant.Move == null) return;
+
+        bool playPartial = false;
+        if (participant.Move.Category == Category.Shoot && !isSuccess)
+            playPartial = true; 
+
+        await VideoManager.Instance.PlayMoveVideoAsync(participant.Move.MoveId, "block", playPartial);
+    }
+
+    public async Task TryPlayMoveVideoCatch(DuelParticipant participant, bool isSuccess)
+    {
+        if (participant.Move == null) return;
+        string variant = isSuccess ? "success" : "failure"; 
+        await VideoManager.Instance.PlayMoveVideoAsync(participant.Move.MoveId, variant, false);
     }
     #endregion
 }

@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 1
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 90
   Control: 104
   Technique: 105
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 75
   Intelligence: 93
   MoveIds:
-  - petal_dribble
-  - water_walk
-  - sequoia
-  - vine_swing
+  - dash_accelerator
+  - plasma_cut
+  - runaway_train
+  - galatyn
   MoveLvs: 050000000f000000190000002d000000

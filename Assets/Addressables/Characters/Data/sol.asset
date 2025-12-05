@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 0
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 121
   Control: 115
   Technique: 105
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 85
   Intelligence: 93
   MoveIds:
-  - holy_sword
-  - heat_burst
-  - shining_scramble
-  - overlord_overhead
+  - thundertaker
+  - atomic_flare
+  - plasma_cut
+  - grand_glow
   MoveLvs: 050000000f000000190000002d000000

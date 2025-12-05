@@ -20,7 +20,7 @@ MonoBehaviour:
   Element: 0
   Position: 0
   Gp: 100
-  Tp: 100
+  Tp: 80
   Kick: 110
   Control: 108
   Technique: 98
@@ -29,8 +29,8 @@ MonoBehaviour:
   Agility: 81
   Intelligence: 97
   MoveIds:
-  - evil_dribble
-  - ice_skating
-  - no_return
-  - demon_dash
+  - swirly_shot
+  - rolling_slide
+  - afterimage
+  - flower_power
   MoveLvs: 050000000f000000190000002d000000
