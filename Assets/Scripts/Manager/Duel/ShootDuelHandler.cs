@@ -67,6 +67,8 @@ public class ShootDuelHandler : IDuelHandler
 
         if (!isFirstParticipant)
             BattleManager.Instance.Ball.ResumeTravel();
+
+        BattleManager.Instance.Ball.TryPlayParticle(offense.Move);
     }
     #endregion
 

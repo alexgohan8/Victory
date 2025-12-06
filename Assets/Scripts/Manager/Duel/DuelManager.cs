@@ -60,6 +60,7 @@ public class DuelManager : MonoBehaviour
 
     public bool IsResolved => duel.IsResolved;
     public bool IsKeeperDuel => duel.IsKeeperDuel;
+    public bool IsLongShootStart => duel.IsLongShootStart;
     public DuelMode DuelMode => duel.DuelMode;
     public int GetParticipantCount() => duel.Participants.Count;
     public int GetStagedParticipantCount() => stagedParticipants.Count;
@@ -262,6 +263,7 @@ public class DuelManager : MonoBehaviour
         ShootTriangleManager.Instance.SetTriangleFromCharacter(participant.Character);
         StartBallTravel(participant);
         PossessionManager.Instance.SetLastCharacter(participant.Character);
+        BattleManager.Instance.Ball.TryPlayParticle(participant.Move);
     }
 
     public void StartBallTravel(DuelParticipant participant)
