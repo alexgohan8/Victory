@@ -61,7 +61,7 @@ public class ShootDuelHandler : IDuelHandler
         HandleShootSfx(offense);
 
         if (isFirstParticipant)
-            StartBallTravel(offense);
+            DuelManager.Instance.StartBallTravel(offense);
         else
             PossessionManager.Instance.SetLastCharacter(offense.Character); //keep track of the last character in the shoot chain to determine who scored
 
@@ -90,6 +90,8 @@ public class ShootDuelHandler : IDuelHandler
 
     private async void HandleDefenseFull(DuelParticipant offense, DuelParticipant defense, bool isCategoryCatch)
     {
+        bool isShootReversal = defense.Move?.Category == Category.Shoot;
+
         LogManager.Info($"[ShootDuelHandler] {defense.Character.CharacterId} stopped the attack.");
 
         BattleEvents.RaiseShootStopped(defense.Character);
@@ -101,8 +103,15 @@ public class ShootDuelHandler : IDuelHandler
         else 
             await DuelManager.Instance.TryPlayMoveVideoBlock(defense, true);
 
-        EndDuel(defense, offense);
-        BattleManager.Instance.Ball.EndTravel();
+        // if is reversal start else end
+        if (isShootReversal) 
+        {
+            DuelManager.Instance.StartShootDuelReversal();
+        } else 
+        {
+            EndDuel(defense, offense);
+            BattleManager.Instance.Ball.EndTravel();
+        }
     }
 
     private async void HandleDefensePartial(DuelParticipant offense, DuelParticipant defense, bool isCategoryCatch)
@@ -129,14 +138,6 @@ public class ShootDuelHandler : IDuelHandler
     #endregion
 
     #region Helpers
-    private void StartBallTravel(DuelParticipant participant)
-    {
-        PossessionManager.Instance.Release();
-        BattleManager.Instance.Ball.StartTravel(
-            ShootTriangleManager.Instance.GetRandomPoint(),
-            participant.Command);
-    }
-
     private void HandleMove(DuelParticipant participant) 
     {
         if (participant.Move == null) return;

@@ -79,15 +79,18 @@ public class DuelManager : MonoBehaviour
     public Trait? GetRequiredTraitByCategory(Category category) 
     {
         //this method is for shoot duel only
+        if (duel.DuelMode == DuelMode.Field) return null;
+
         if (category == Category.Shoot) 
         {
             if (duel.Participants.Count == 0) 
             {
-                //if (isLongShootStart)
+                if (duel.IsLongShootStart)
                     return Trait.Long;
             } else 
             {
-                return Trait.Chain;
+                //return Trait.Chain;
+                return null;
             }
         } else if (category == Category.Block) 
         {
@@ -176,7 +179,7 @@ public class DuelManager : MonoBehaviour
     #endregion
 
     #region Shoot
-    public void StartShootDuel(Character character, bool isDirect) 
+    public void StartShootDuel(Character character, bool isDirect, bool isLongShootStart) 
     {
         LogManager.Info($"[DuelManager] " +
             $"Shoot duel started by " +
@@ -186,6 +189,7 @@ public class DuelManager : MonoBehaviour
 
         character.StartKick();
         DuelManager.Instance.StartDuel(DuelMode.Shoot);
+        duel.IsLongShootStart = isLongShootStart;
         ShootTriangleManager.Instance.SetTriangleFromCharacter(character);
         BattleEvents.RaiseShootPerformed(character, isDirect);
 
@@ -239,9 +243,33 @@ public class DuelManager : MonoBehaviour
         DuelSelectionManager.Instance.StartSelectionPhase();
     }
 
-    public void StartShootDuelReversal() 
+    public void StartShootDuelReversal()
     {
-        //triangle and travel to the other goal, keep the same duel
+        //keep the same duel
+
+        //flip roles
+        var participant = duel.LastDefense;
+        duel.LastDefense = duel.LastOffense;
+        duel.LastOffense = participant;
+        duel.OffensePressure = participant.Damage;
+
+        //UI
+        BattleUIManager.Instance.SetComboDamage(duel.OffensePressure);
+        BattleUIManager.Instance.SetDuelParticipant(participant.Character, null);
+        BattleUIManager.Instance.SetDuelParticipant(GoalManager.Instance.GetOpponentKeeper(participant.Character), null);
+
+        //handle ball
+        ShootTriangleManager.Instance.SetTriangleFromCharacter(participant.Character);
+        StartBallTravel(participant);
+        PossessionManager.Instance.SetLastCharacter(participant.Character);
+    }
+
+    public void StartBallTravel(DuelParticipant participant)
+    {
+        PossessionManager.Instance.Release();
+        BattleManager.Instance.Ball.StartTravel(
+            ShootTriangleManager.Instance.GetRandomPoint(),
+            participant.Command);
     }
     #endregion
 
@@ -431,11 +459,15 @@ public class DuelManager : MonoBehaviour
     {
         if (participant.Move == null) return;
 
+        string variant = "block"; 
         bool playPartial = false;
-        if (participant.Move.Category == Category.Shoot && !isSuccess)
-            playPartial = true; 
+        if (participant.Move.Category == Category.Shoot) 
+            variant = null;
+        if (participant.Move.Category == Category.Shoot && !isSuccess) 
+            playPartial = true;
 
-        await VideoManager.Instance.PlayMoveVideoAsync(participant.Move.MoveId, "block", playPartial);
+
+        await VideoManager.Instance.PlayMoveVideoAsync(participant.Move.MoveId, variant, playPartial);
     }
 
     public async Task TryPlayMoveVideoCatch(DuelParticipant participant, bool isSuccess)

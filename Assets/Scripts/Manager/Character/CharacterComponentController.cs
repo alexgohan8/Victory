@@ -233,7 +233,8 @@ public class CharacterComponentController : MonoBehaviour
     private void HandleShoot(bool isDirect) 
     {
         LogManager.Trace($"[CharacterComponentController] isDirect: {isDirect}");
-        DuelManager.Instance.StartShootDuel(character, isDirect);
+        bool isLongShootStart = !GoalManager.Instance.IsInShootDistance(character);
+        DuelManager.Instance.StartShootDuel(character, isDirect, isLongShootStart);
     }
     #endregion
 }
