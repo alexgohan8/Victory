@@ -73,7 +73,8 @@ public class CharacterComponentStats : MonoBehaviour
     {
         if (stat == Stat.Gp && amount < 0) 
             amount = GetReducedHpAmount(amount);
-        battleStats[stat] = Mathf.Clamp(battleStats[stat] + amount, 0, trueStats[stat]);
+        //battleStats[stat] = Mathf.Clamp(battleStats[stat] + amount, 0, trueStats[stat]);
+        battleStats[stat] = Mathf.Clamp(battleStats[stat] + amount, 0, 999);
         if (stat == Stat.Gp) this.character.UpdateFatigue();
     }
 

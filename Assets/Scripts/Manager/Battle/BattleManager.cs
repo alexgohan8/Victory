@@ -95,7 +95,7 @@ public class BattleManager : MonoBehaviour
     {
         if (currentPhase == newPhase) return;
 
-        BattleEvents.RaiseBattlePhaseChanged(newPhase, lastPhase);
+        BattleEvents.RaiseBattlePhaseChanged(newPhase, currentPhase);
 
         LogManager.Info($"[BattleManager] " + 
             $"BattlePhase changed to {newPhase}" , this);

@@ -125,6 +125,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 2307362037524856839
+  - m_Id: 11623612500680704
+    m_Localized: "\xA1Enemigo potenciado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11623719262494720
+    m_Localized: "\xA1El efecto se acab\xF3!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
