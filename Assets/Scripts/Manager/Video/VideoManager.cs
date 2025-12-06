@@ -16,7 +16,7 @@ public class VideoManager : MonoBehaviour
     private Camera renderCamera;
     private string _currentVideoAddress;
     private bool _isPlaying = false;
-    private const float PartialPlaybackPercent = 0.95f;
+    private const float PartialPlaybackPercent = 0.7f;
     // Cache: address → loaded VideoClip
     private readonly Dictionary<string, VideoClip> _cachedVideos = new();
 

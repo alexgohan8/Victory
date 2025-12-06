@@ -12,6 +12,7 @@ TagManager:
   - Character-Duel-Field
   - Character-Duel-Combo
   - Character-Duel-Keeper
+  - Bound
   layers:
   - Default
   - TransparentFX
