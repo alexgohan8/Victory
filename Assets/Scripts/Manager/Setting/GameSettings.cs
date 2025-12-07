@@ -9,6 +9,7 @@ public class GameSettings
     public LocalizationStyle CurrentLocalizationStyle = LocalizationStyle.Localized;
     public float BgmVolume = 1f;
     public float SfxVolume = 1f;
+    public bool HardcoreMode = false;
     
     // Active scheme selector
     public ControlScheme CurrentScheme = ControlScheme.Traditional;

@@ -428,6 +428,43 @@ public class DuelLogManager : MonoBehaviour
         );
     }
 
+    public void AddEnemyBoostOn(Character character)
+    {
+        AddEntry(
+            "enemy_boost_on", 
+            LogLevel.Trace,
+            character,
+            null,
+            null
+        );
+        AddEntry(
+            "enemy_boost_on", 
+            LogLevel.Info,
+            character,
+            null,
+            null
+        );
+    }
+
+    public void AddEnemyBoostOff(Character character)
+    {
+        AddEntry(
+            "enemy_boost_off", 
+            LogLevel.Trace,
+            character,
+            null,
+            null
+        );
+        AddEntry(
+            "enemy_boost_off", 
+            LogLevel.Info,
+            character,
+            null,
+            null
+        );
+    }
+
+
     #endregion
 
     #region Helper Methods

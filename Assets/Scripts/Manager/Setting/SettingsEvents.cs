@@ -45,4 +45,10 @@ public static class SettingsEvents
     {
         OnAutoBattleToggled?.Invoke(enable);
     }
+
+    public static event Action<bool> OnHardcoreModeToggled;
+    public static void RaiseHardcoreModeToggled(bool enable)
+    {
+        OnHardcoreModeToggled?.Invoke(enable);
+    }
 }

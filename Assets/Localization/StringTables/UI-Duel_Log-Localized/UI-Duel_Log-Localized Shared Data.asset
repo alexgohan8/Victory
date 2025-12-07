@@ -111,6 +111,14 @@ MonoBehaviour:
     m_Key: condition
     m_Metadata:
       m_Items: []
+  - m_Id: 11623612500680704
+    m_Key: enemy_boost_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11623719262494720
+    m_Key: enemy_boost_off
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

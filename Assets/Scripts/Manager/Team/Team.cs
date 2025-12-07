@@ -39,11 +39,23 @@ public class Team
         levelsComponent = new TeamComponentLevels(teamData, this);
         playersComponent = new TeamComponentPlayers(teamData, this);
         sideComponent = new TeamComponentSide(teamData, this);
+
+        SettingsEvents.OnLocalizationStyleChanged += HandleLocalizationStyleChanged;
     }
 
     public void Deinitialize()
     {
         sideComponent.Deinitialize();
+        SettingsEvents.OnLocalizationStyleChanged -= HandleLocalizationStyleChanged;
+    }
+
+    private void HandleLocalizationStyleChanged(LocalizationStyle style)
+    {
+        localizationStringComponent = new LocalizationComponentString(
+            LocalizationEntity.Team,
+            TeamId,
+            new [] { LocalizationField.Name }
+        );
     }
     #endregion
 

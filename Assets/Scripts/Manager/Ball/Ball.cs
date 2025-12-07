@@ -14,6 +14,7 @@ public class Ball : MonoBehaviour
     [SerializeField] private BallComponentKick kickComponent;
 
     [SerializeField] private BallComponentTravel travelComponent;
+    [SerializeField] private BallComponentTravelParticle travelParticleComponent;
     #endregion
 
     #region Initialize
@@ -28,6 +29,7 @@ public class Ball : MonoBehaviour
 
 
         travelComponent.Initialize(ballData, this);
+        travelParticleComponent.Initialize(ballData, this);
     }
     #endregion
 
@@ -57,6 +59,8 @@ public class Ball : MonoBehaviour
     public void ResumeTravel() => travelComponent.ResumeTravel();
     public void CancelTravel() => travelComponent.CancelTravel();
     public void EndTravel() => travelComponent.EndTravel();
+    //travelParticleComponent
+    public void TryPlayParticle(Move move) => travelParticleComponent.TryPlayParticle(move);
 
     //misc
     public bool IsFree() => PossessionManager.Instance.CurrentCharacter == null;
