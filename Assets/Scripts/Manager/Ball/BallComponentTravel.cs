@@ -1,5 +1,6 @@
 using UnityEngine;
 using Simulation.Enums.Duel;
+using Simulation.Enums.Character;
 
 public class BallComponentTravel : MonoBehaviour
 {
@@ -22,6 +23,21 @@ public class BallComponentTravel : MonoBehaviour
     {
         this.ball = ball;
     }
+
+    void OnEnable()
+    {
+        BattleEvents.OnBattlePause += HandleBattlePause;
+        BattleEvents.OnBattleResume += HandleBattleResume;
+    }
+
+    void OnDisable()
+    {
+        BattleEvents.OnBattlePause -= HandleBattlePause;
+        BattleEvents.OnBattleResume -= HandleBattleResume;
+    }
+
+    private void HandleBattlePause(TeamSide teamSide) => PauseTravel();
+    private void HandleBattleResume() => ResumeTravel();
 
     private void Update()
     {

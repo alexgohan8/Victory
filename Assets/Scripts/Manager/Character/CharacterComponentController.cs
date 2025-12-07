@@ -92,7 +92,7 @@ public class CharacterComponentController : MonoBehaviour
         if (passHeld)
             UpdatePassIndicator();
 
-        if (passDown || passUp)
+        if (passDown || (passUp && isAimingPass))
             HandlePass();
 
         //dribble

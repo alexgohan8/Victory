@@ -151,5 +151,7 @@ public class EnemyBoostManager : MonoBehaviour
     {
         if (this.character == character)
             isCharacterShoot = true;
+        else
+            isCharacterShoot = false;
     }
 }
