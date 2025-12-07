@@ -65,8 +65,7 @@ public class EnemyBoostManager : MonoBehaviour
     /// </summary>
     public void TryGiveBoost()
     {
-        //if hardcore mode setting
-        if(!isActive)
+        if(!isActive && SettingsManager.Instance.CurrentSettings.HardcoreMode)
             GiveBoost(character);
     }
 
@@ -94,7 +93,7 @@ public class EnemyBoostManager : MonoBehaviour
     /// </summary>
     public void ResetBoost()
     {
-        if (character == null) return;
+        if (character == null || !SettingsManager.Instance.CurrentSettings.HardcoreMode) return;
         character.ResetBattleStats();
         DuelLogManager.Instance.AddEnemyBoostOff(character);
         character = null;

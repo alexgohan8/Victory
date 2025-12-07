@@ -1298,7 +1298,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7062778067297406415}
+        m_TargetAssemblyTypeName: GameSettingsMenu, Assembly-CSharp
+        m_MethodName: OnHardcoreModeToggleChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 1
 --- !u!1 &3024248415931913393
 GameObject:
@@ -3051,6 +3063,7 @@ MonoBehaviour:
   sliderBgm: {fileID: 9205705277115687799}
   sliderSfx: {fileID: 7805318094346719891}
   toggleLocalizationStyle: {fileID: 3063046411973295616}
+  toggleHardcoreMode: {fileID: 832162956286071369}
 --- !u!1 &5863962821862274535
 GameObject:
   m_ObjectHideFlags: 0

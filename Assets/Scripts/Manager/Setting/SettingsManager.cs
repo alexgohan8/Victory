@@ -78,6 +78,13 @@ public class SettingsManager : MonoBehaviour
         SettingsEvents.RaiseLocalizationStyleChanged(localizationStyle);
     }
 
+    public void SetHardcoreMode(bool enable)
+    {
+        CurrentSettings.HardcoreMode = enable;
+        SaveSettings();
+        SettingsEvents.RaiseHardcoreModeToggled(enable);
+    }
+
     // ======================================
     // Control settings management
     // ======================================
