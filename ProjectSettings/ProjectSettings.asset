@@ -169,7 +169,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.Aremoreno.SoccerSecretSimulation
-    Standalone: com.Aremoreno.Soccer-Secret-Simulation
+    Standalone: com.Chiscky.Inazuma-Eleven--Victory-Iberia
   buildNumber:
     Standalone: 0
     VisionOS: 0

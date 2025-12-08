@@ -22,10 +22,14 @@ MonoBehaviour:
     m_Localized: "Cr\xE9ditos"
     m_Metadata:
       m_Items: []
-  - m_Id: 22445563904
-    m_Localized: "<b>Generaci\xF3n de c\xF3digo</b>\nGPT-5\n\n<b>Generaci\xF3n de
-      im\xE1genes</b>\nDALL\xB7E 3\n\n<b>Generaci\xF3n de m\xFAsica</b>\nEnzostvs
-      Ai-jukebox"
+  - m_Id: 12318446567825408
+    m_Localized: "<b>Agradecimientos</b>\nChiscky\nAlexgohan\n\n<b>Generaci\xF3n
+      de c\xF3digo</b>\nGPT-5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12318446572019712
+    m_Localized: "<b>Generaci\xF3n de im\xE1genes</b>\nDALL\xB7E 3\n\n\n<b>Generaci\xF3n
+      de m\xFAsica</b>\nEnzostvs Ai-jukebox"
     m_Metadata:
       m_Items: []
   references:

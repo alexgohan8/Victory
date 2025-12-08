@@ -19,8 +19,12 @@ MonoBehaviour:
     m_Key: title
     m_Metadata:
       m_Items: []
-  - m_Id: 22445563904
-    m_Key: content
+  - m_Id: 12318446567825408
+    m_Key: content_page1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12318446572019712
+    m_Key: content_page2
     m_Metadata:
       m_Items: []
   m_Metadata:

@@ -35,6 +35,10 @@ public class DuelParticantsPanel : MonoBehaviour
             };
         }
 
+    }
+
+    private void Start() 
+    {
         Hide();
     }
 
