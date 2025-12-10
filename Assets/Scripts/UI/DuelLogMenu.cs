@@ -1,38 +1,35 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngine.Localization;
+using System.Collections.Generic;
 using Simulation.Enums.Log;
 using Simulation.Enums.Input;
 
 public class DuelLogMenu : Menu
 {
+    [Header("References")]
     [SerializeField] private DuelLogPopup popupPrefab;
-    [SerializeField] private Transform contentParent; // ScrollView content
-    [SerializeField] private GameObject panelMenu; // ScrollView content
+    [SerializeField] private Transform contentParent; 
     [SerializeField] private ScrollRect scrollRect;
     [SerializeField] private DuelLogPopupStack popupStack;
 
+    // Pooling & performance settings
+    private readonly List<DuelLogPopup> popupPool = new List<DuelLogPopup>();
+    private const int MAX_LOGS_VISIBLE = 30;
+    private Coroutine populateCoroutine;
+
     public bool IsDuelLogMenuOpen => MenuManager.Instance.IsMenuOpen(this);
 
-    void Awake()
+    private void Awake()
     {
         BattleUIManager.Instance.RegisterDuelLogMenu(this);
     }
 
-    void Start()
+    private void Start()
     {
-        base.Hide();
+        // Start hidden but without disabling the GameObject
+        SetVisible(false);
         base.SetInteractable(false);
-    }
-
-    private void OnEnable()
-    {
-    }
-
-    private void OnDisable()
-    {
-
     }
 
     private void OnDestroy()
@@ -40,7 +37,7 @@ public class DuelLogMenu : Menu
         BattleUIManager.Instance.UnregisterDuelLogMenu(this);
     }
 
-    void Update()
+    private void Update()
     {
         if (!IsInteractable()) return;
         HandleInput();
@@ -48,53 +45,98 @@ public class DuelLogMenu : Menu
 
     private void HandleInput()
     {
-        if (IsDuelLogMenuOpen)
+        if (IsDuelLogMenuOpen && InputManager.Instance.GetDown(CustomAction.BattleUI_CloseBattleMenu))
         {
-            if (InputManager.Instance.GetDown(CustomAction.BattleUI_CloseBattleMenu))
-                MenuManager.Instance.CloseMenu();
+            MenuManager.Instance.CloseMenu();
         }
     }
 
-    // Call this when opening the menu
-    private void PopulateLog()
-    {
-        // Clear previous items
-        foreach (Transform child in contentParent)
-            Destroy(child.gameObject);
-
-        // Add a static popup for each log entry
-        foreach (DuelLogEntry entry in DuelLogManager.Instance.DuelLogEntries)
-        {
-            if(entry.LogLevel == LogLevel.Info) continue;
-
-            var popup = Instantiate(popupPrefab, contentParent);
-
-            // Use a special method or overload that doesn't start a timer
-            popup.ShowStatic(entry);
-        }
-
-        StartCoroutine(ScrollToBottomNextFrame()); // <-- Fix here
-        //AudioManager.Instance.PlaySfx("SfxMenuTap");
-    }
-
-    private IEnumerator ScrollToBottomNextFrame()
-    {
-        yield return new WaitForEndOfFrame(); // Wait one frame for UI to rebuild
-        scrollRect.verticalNormalizedPosition = 0f;
-    }
-
+    // ✅ Show the menu using CanvasGroup.alpha instead of disabling
     public override void Show()
     {
+        SetVisible(true);
         base.Show();
-        PopulateLog();
+
+        if (populateCoroutine != null)
+            StopCoroutine(populateCoroutine);
+
+        populateCoroutine = StartCoroutine(PopulateLogCoroutine());
     }
 
+    // ✅ Hide without disabling GameObject
     public override void Hide()
     {
+        SetVisible(false);
         base.Hide();
     }
 
-    private void HandleMenuOpened(Menu menu) 
+    private void SetVisible(bool visible)
+    {
+        if (!base.CanvasGroup) return;
+
+        base.CanvasGroup.alpha = visible ? 1f : 0f;
+        base.CanvasGroup.interactable = visible;
+        base.CanvasGroup.blocksRaycasts = visible;
+    }
+
+    // ✅ Efficient coroutine-based population with pooling
+    private IEnumerator PopulateLogCoroutine()
+    {
+        var layoutGroup = contentParent.GetComponent<VerticalLayoutGroup>();
+        var fitter = contentParent.GetComponent<ContentSizeFitter>();
+
+        // Temporarily disable layouts for performance
+        if (layoutGroup) layoutGroup.enabled = false;
+        if (fitter) fitter.enabled = false;
+
+        // Deactivate all pooled popups
+        foreach (var popup in popupPool)
+        {
+            popup.gameObject.SetActive(false);
+        }
+
+        // Retrieve recent logs
+        var entries = DuelLogManager.Instance.DuelLogEntries;
+        int startIndex = Mathf.Max(0, entries.Count - MAX_LOGS_VISIBLE);
+
+        int index = 0;
+        for (int i = startIndex; i < entries.Count; i++)
+        {
+            var entry = entries[i];
+            if (entry.LogLevel == LogLevel.Info) continue;
+
+            DuelLogPopup popup;
+            if (index < popupPool.Count)
+            {
+                popup = popupPool[index];
+            }
+            else
+            {
+                popup = Instantiate(popupPrefab, contentParent);
+                popupPool.Add(popup);
+            }
+
+            popup.ShowStatic(entry);
+            popup.gameObject.SetActive(true);
+            index++;
+
+            // Yield periodically to avoid frame hitching
+            if (index % 10 == 0)
+                yield return null;
+        }
+
+        // Re-enable layout for final rebuild
+        if (layoutGroup) layoutGroup.enabled = true;
+        if (fitter) fitter.enabled = true;
+
+        LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)contentParent);
+
+        // Scroll to bottom next frame
+        yield return new WaitForEndOfFrame();
+        scrollRect.verticalNormalizedPosition = 0f;
+    }
+
+    private void HandleMenuOpened(Menu menu)
     {
         if (menu == this) return;
         if (!IsDuelLogMenuOpen) return;

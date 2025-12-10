@@ -150,6 +150,7 @@ public class VideoManager : MonoBehaviour
         {
             _isPlaying = false;
             BattleManager.Instance.Unfreeze();
+            MoveEvents.RaiseMoveCutsceneEnd();
             return;
         }
         
