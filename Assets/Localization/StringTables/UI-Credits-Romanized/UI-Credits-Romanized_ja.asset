@@ -22,9 +22,13 @@ MonoBehaviour:
     m_Localized: "\u30AF\u30EC\u30B8\u30C3\u30C8"
     m_Metadata:
       m_Items: []
-  - m_Id: 22445563904
-    m_Localized: "<b>\u30B3\u30FC\u30C9\u751F\u6210</b>\nGPT-5\n\n<b>\u753B\u50CF\u751F\u6210</b>\nDALL\xB7E
-      3\n\n<b>BGM\u751F\u6210</b>\nEnzostvs Ai-jukebox"
+  - m_Id: 12318446567825408
+    m_Localized: "<b>\u7279\u5225\u611F\u8B1D</b>\nChiscky\nAlexgohan\n\n<b>\u30B3\u30FC\u30C9\u751F\u6210</b>\nGPT-5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12318446572019712
+    m_Localized: "<b>\u753B\u50CF\u751F\u6210</b>\nDALL\xB7E 3\n\n\n<b>BGM\u751F\u6210</b>\nEnzostvs
+      Ai-jukebox"
     m_Metadata:
       m_Items: []
   references:

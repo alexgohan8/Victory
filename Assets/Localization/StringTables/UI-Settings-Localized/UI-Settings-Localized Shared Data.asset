@@ -35,6 +35,14 @@ MonoBehaviour:
     m_Key: setting_sfx
     m_Metadata:
       m_Items: []
+  - m_Id: 11998596494532608
+    m_Key: setting_localization_style
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11998596532281344
+    m_Key: setting_hardcore_mode
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

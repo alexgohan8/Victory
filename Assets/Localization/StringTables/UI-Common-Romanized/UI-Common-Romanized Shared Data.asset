@@ -35,6 +35,14 @@ MonoBehaviour:
     m_Key: text_gameover
     m_Metadata:
       m_Items: []
+  - m_Id: 36939210176602112
+    m_Key: text_trademark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943403364917248
+    m_Key: text_loading
+    m_Metadata:
+      m_Items: []
   - m_Id: 31180048641564673
     m_Key: button_yes
     m_Metadata:

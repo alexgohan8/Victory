@@ -207,6 +207,8 @@ public class BattleUIManager : MonoBehaviour
     #endregion
 
     #region DuelMenu
+    public bool IsDuelMenuOpen => duelMenu.IsDuelMenuOpen;
+
     public void ShowDuelMenuForUser()
     {
         if (duelMenu != null) 

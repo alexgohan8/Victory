@@ -25,6 +25,11 @@ public class CharacterComponentDuelKeeperCollider : MonoBehaviour
         TryHandleTrigger(other);
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        TryHandleTrigger(other);
+    }
+
     private void OnEnable()
     {
         TeamEvents.OnAssignCharacterToTeamBattle += HandleAssignCharacterToTeamBattle;    

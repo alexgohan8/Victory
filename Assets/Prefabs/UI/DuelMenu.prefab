@@ -762,6 +762,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3345109096383943466, guid: 0961e76d55881dfe1ab1ee1844f2eae2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8904819202780657084}
+    - targetCorrespondingSourceObject: {fileID: 3345109096383943466, guid: 0961e76d55881dfe1ab1ee1844f2eae2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4636051912976688025}
   m_SourcePrefab: {fileID: 100100000, guid: 0961e76d55881dfe1ab1ee1844f2eae2, type: 3}
 --- !u!114 &581979085050419264 stripped
 MonoBehaviour:
@@ -816,6 +819,40 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &4636051912976688025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2890367172376905181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e4c77638dd1fd9a9671965f5b6eaaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizeStringEvent: {fileID: 8904819202780657084}
+  textLocalized:
+    m_TableReference:
+      m_TableCollectionName: GUID:00f2edbf73703906bb09abb1e4e0e09e
+    m_TableEntryReference:
+      m_KeyId: 17894744065
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  textRomanized:
+    m_TableReference:
+      m_TableCollectionName: GUID:6139951b1e8226c3aa1e9e8fa7f6db60
+    m_TableEntryReference:
+      m_KeyId: 14467997696
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   references:
     version: 2
     RefIds: []

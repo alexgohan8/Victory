@@ -31,40 +31,20 @@ MonoBehaviour:
     m_Key: button_command_ranged
     m_Metadata:
       m_Items: []
-  - m_Id: 6558412449783808
-    m_Key: button_auto
+  - m_Id: 12553713077723136
+    m_Key: condition_score_1
     m_Metadata:
       m_Items: []
-  - m_Id: 6558412453978112
-    m_Key: button_manual
+  - m_Id: 12553713081917440
+    m_Key: condition_score_3
     m_Metadata:
       m_Items: []
-  - m_Id: 6569877814648832
-    m_Key: button_forfeit
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6558412453978114
-    m_Key: button_pause
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6558412453978115
-    m_Key: button_resume
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9045905770291200
-    m_Key: condition_score_singular
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9045905770291201
-    m_Key: condition_score_plural
+  - m_Id: 12553713081917441
+    m_Key: condition_score_5
     m_Metadata:
       m_Items: []
   - m_Id: 14467997702
     m_Key: text_exit
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9045905770291202
-    m_Key: text_ap
     m_Metadata:
       m_Items: []
   - m_Id: 14467997703
@@ -73,14 +53,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14467997704
     m_Key: text_lose
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3220200436277248
-    m_Key: text_foul
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3219103076327425
-    m_Key: text_offside
     m_Metadata:
       m_Items: []
   - m_Id: 14467997705
@@ -105,10 +77,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14467997710
     m_Key: text_time_second
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6558412453978116
-    m_Key: text_battle_menu
     m_Metadata:
       m_Items: []
   m_Metadata:

@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 24621036194242560
-    m_Localized: Soccer Secret Simulation
+    m_Localized: Inazuma Eleven Victory Iberia
     m_Metadata:
       m_Items: []
   - m_Id: 24621036194242561
@@ -44,6 +44,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 31180048641564674
     m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36939210176602112
+    m_Localized: Inazuma Eleven is a trademark of LEVEL5.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943403364917248
+    m_Localized: Now loading...
     m_Metadata:
       m_Items: []
   references:

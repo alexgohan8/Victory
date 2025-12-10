@@ -38,6 +38,14 @@ MonoBehaviour:
     m_Localized: Effects volume
     m_Metadata:
       m_Items: []
+  - m_Id: 11998542706778112
+    m_Localized: Romanized names
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11998542706778113
+    m_Localized: Hardcore mode
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: DefaultSettings
   m_EditorClassIdentifier: 
   PresetDefault:
-    LanguageCode: en
-    MusicVolume: 1
+    LocaleIndex: 2
+    CurrentLocalizationStyle: 0
+    BgmVolume: 1
     SfxVolume: 1
+    HardcoreMode: 0
     CurrentScheme: 0
     ControlsSettingsTraditional:
       AutoPass: 0
@@ -24,9 +26,11 @@ MonoBehaviour:
       AutoPass: 0
       ShootOnSwipe: 1
   PresetTouch:
-    LanguageCode: en
-    MusicVolume: 1
+    LocaleIndex: 0
+    CurrentLocalizationStyle: 0
+    BgmVolume: 1
     SfxVolume: 1
+    HardcoreMode: 0
     CurrentScheme: 1
     ControlsSettingsTraditional:
       AutoPass: 0
@@ -35,9 +39,11 @@ MonoBehaviour:
       AutoPass: 0
       ShootOnSwipe: 1
   PresetTraditional:
-    LanguageCode: en
-    MusicVolume: 1
+    LocaleIndex: 0
+    CurrentLocalizationStyle: 0
+    BgmVolume: 1
     SfxVolume: 1
+    HardcoreMode: 0
     CurrentScheme: 0
     ControlsSettingsTraditional:
       AutoPass: 0

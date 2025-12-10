@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
 
     private void Start() 
     {
-        AudioManager.Instance.PlayBgm("bgm-simulation");    
+        AudioManager.Instance.PlayBgm("bgm-main_theme");    
         panelMain.SetActive(true);
         panelSettings.SetActive(false);
         panelCredits.SetActive(false);
