@@ -59,6 +59,10 @@ public class VideoManager : MonoBehaviour
         videoPlayer.EnableAudioTrack(0, true);             // Track 0 = first audio stream in clip
         videoPlayer.SetTargetAudioSource(0, audioSource);  // Route to AudioSource
         videoPlayer.targetCamera = renderCamera;
+        
+        //TODO
+        //videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "1_test.mp4");
+        //videoPlayer.Play();
     }
     public void UnregisterVideoPlayer() => videoPlayer = null;
 

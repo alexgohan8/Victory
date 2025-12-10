@@ -29,6 +29,8 @@ public class DuelMenu : MonoBehaviour
     private List<Move> moves;
     private TeamSide userSide;
 
+    public bool IsDuelMenuOpen => isOpen;
+
     private void Awake()
     {
         BattleUIManager.Instance?.RegisterDuelMenu(this);

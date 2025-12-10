@@ -16,15 +16,14 @@ MonoBehaviour:
     m_Code: es
   m_SharedData: {fileID: 11400000, guid: 6139951b1e8226c3aa1e9e8fa7f6db60, type: 2}
   m_Metadata:
-    m_Items:
-    - rid: 2307362107809071109
+    m_Items: []
   m_TableData:
   - m_Id: 14463803392
     m_Localized: DUELO
     m_Metadata:
       m_Items: []
   - m_Id: 14467997696
-    m_Localized: SECRET
+    m_Localized: Hissatsu
     m_Metadata:
       m_Items: []
   - m_Id: 14467997697
@@ -32,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14467997698
-    m_Localized: "T\xE9cnica"
+    m_Localized: Destreza
     m_Metadata:
       m_Items: []
   - m_Id: 14467997702
@@ -64,66 +63,25 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14467997709
-    m_Localized: "1\xBA"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14467997710
     m_Localized: "2\xBA"
     m_Metadata:
       m_Items: []
-  - m_Id: 3219103076327425
-    m_Localized: Fuera de juego
+  - m_Id: 14467997710
+    m_Localized: 2nd
     m_Metadata:
       m_Items: []
-  - m_Id: 3220200436277248
-    m_Localized: Falta
+  - m_Id: 12553713077723136
+    m_Localized: "\xA1Marca 1 gol!"
     m_Metadata:
       m_Items: []
-  - m_Id: 6558412449783808
-    m_Localized: "Autom\xE1tico"
+  - m_Id: 12553713081917440
+    m_Localized: "\xA1Marca 2 goles!"
     m_Metadata:
       m_Items: []
-  - m_Id: 6558412453978112
-    m_Localized: Manual
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6558412453978114
-    m_Localized: Tiempo Muerto
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6558412453978115
-    m_Localized: Reanudar
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6558412453978116
-    m_Localized: "Men\xFA Batalla"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6569877814648832
-    m_Localized: Abandonar
-    m_Metadata:
-      m_Items: []
-  - m_Id: 9045905770291200
-    m_Localized: "\xA1Marca {goalAmount} gol!"
-    m_Metadata:
-      m_Items:
-      - rid: 2307362107809071109
-  - m_Id: 9045905770291201
-    m_Localized: "\xA1Marca {goalAmount} goles!"
-    m_Metadata:
-      m_Items:
-      - rid: 2307362107809071109
-  - m_Id: 9045905770291202
-    m_Localized: PA
+  - m_Id: 12553713081917441
+    m_Localized: "\xA1Marca 5 goles!"
     m_Metadata:
       m_Items: []
   references:
     version: 2
-    RefIds:
-    - rid: 2307362107809071109
-      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries: 
-        m_SharedEntries:
-        - id: 9045905770291200
-        - id: 9045905770291201
+    RefIds: []

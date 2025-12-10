@@ -24,7 +24,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17894744065
-    m_Localized: SECRET
+    m_Localized: "S.T\xE9cnica"
     m_Metadata:
       m_Items: []
   - m_Id: 17894744066
@@ -32,7 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17894744067
-    m_Localized: "T\xE9cnica"
+    m_Localized: Destreza
     m_Metadata:
       m_Items: []
   - m_Id: 17894744071
