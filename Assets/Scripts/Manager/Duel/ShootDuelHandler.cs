@@ -84,7 +84,7 @@ public class ShootDuelHandler : IDuelHandler
         LogParticipantAction(defense);
 
         bool isCategoryCatch = defense.Category == Category.Catch;
-        if (duel.OffensePressure <= 0)
+        if (duel.OffensePressure <= 0.9)
             HandleDefenseFull(offense, defense, isCategoryCatch);
         else
             HandleDefensePartial(offense, defense, isCategoryCatch);
