@@ -63,13 +63,14 @@ public class BattleManager : MonoBehaviour
     
     void Update()
     {
-        if (!isTimeFrozen)
-        {
-            float timeScale = 50f;
-            timeCurrent += Time.deltaTime * timeScale;
-            BattleUIManager.Instance.UpdateTimerDisplay(timeCurrent);
+        if (isTimeFrozen) return;
+            
+        float timeScale = 50f;
+        timeCurrent += Time.deltaTime * timeScale;
+        BattleUIManager.Instance.UpdateTimerDisplay(timeCurrent);
+        
+        if(!Ball.IsTraveling)
             CheckEndGame();
-        }
     }
 
     private void OnDestroy()

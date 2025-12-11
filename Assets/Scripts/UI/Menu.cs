@@ -13,6 +13,7 @@ public abstract class Menu : MonoBehaviour
     private GameObject lastSelected;
 
     public bool CloseAllPrevious => closeAllPreviousOnBack;
+    public CanvasGroup CanvasGroup => canvasGroup; 
 
     public virtual void Show()
     {

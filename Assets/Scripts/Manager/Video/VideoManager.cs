@@ -14,7 +14,7 @@ public class VideoManager : MonoBehaviour
     private VideoPlayer videoPlayer;
     private AudioSource audioSource;
     private Camera renderCamera;
-    private string _currentVideoAddress;
+    //private string _currentVideoAddress;
     private bool _isPlaying = false;
     private const float PartialPlaybackPercent = 0.7f;
     // Cache: address → loaded VideoClip
@@ -59,10 +59,6 @@ public class VideoManager : MonoBehaviour
         videoPlayer.EnableAudioTrack(0, true);             // Track 0 = first audio stream in clip
         videoPlayer.SetTargetAudioSource(0, audioSource);  // Route to AudioSource
         videoPlayer.targetCamera = renderCamera;
-        
-        //TODO
-        //videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "1_test.mp4");
-        //videoPlayer.Play();
     }
     public void UnregisterVideoPlayer() => videoPlayer = null;
 
@@ -70,6 +66,7 @@ public class VideoManager : MonoBehaviour
     /// Play a move video. If playPartial = true, play only ~95% of it. 
     /// Uses cached clips if previously loaded.
     /// </summary>
+    /*
     public async Task PlayMoveVideoAsync(string moveId, string variant = null, bool playPartial = false)
     {
         _isPlaying = true;
@@ -138,6 +135,90 @@ public class VideoManager : MonoBehaviour
         BattleManager.Instance.Unfreeze();
         MoveEvents.RaiseMoveCutsceneEnd();
     }
+    */
+
+    //streamingAssets version
+    public async Task PlayMoveVideoAsync(string moveId, string variant = null, bool playPartial = false)
+    {
+        _isPlaying = true;
+        BattleManager.Instance.Freeze();
+        MoveEvents.RaiseMoveCutsceneStart();
+
+        if (string.IsNullOrEmpty(moveId) || 
+            videoPlayer == null || 
+            SettingsManager.Instance.IsAutoBattleEnabled) 
+        {
+            _isPlaying = false;
+            BattleManager.Instance.Unfreeze();
+            MoveEvents.RaiseMoveCutsceneEnd();
+            return;
+        }
+        
+
+        // Build consistent address
+        string videoFilename = variant == null
+            ? AddressableLoader.GetMoveVideoAddress(moveId)
+            : AddressableLoader.GetMoveVideoVariantAddress(moveId, variant.ToLower());
+
+        // Assign and play
+        LogManager.Trace($"[VideoManager] Now playing video: {videoFilename}");
+
+        videoPlayer.Stop();
+        await Task.Yield();
+
+        #if UNITY_EDITOR || UNITY_LINUX
+            videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "test_linux" + ".webm");
+        #else
+            videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoFilename + ".mp4");
+        #endif
+
+        videoPlayer.Prepare();
+
+        var prepareTcs = new TaskCompletionSource<bool>();
+        videoPlayer.prepareCompleted += vp => prepareTcs.TrySetResult(true);
+
+        if (await Task.WhenAny(prepareTcs.Task, Task.Delay(5000)) != prepareTcs.Task)
+        {
+            LogManager.Warning($"[VideoManager] Timeout preparing video: {videoFilename}");
+            _isPlaying = false;
+            BattleManager.Instance.Unfreeze();
+            MoveEvents.RaiseMoveCutsceneEnd();
+            return;
+        }
+
+        double videoLength = videoPlayer.length;
+        LogManager.Trace($"[VideoManager] Video length: {videoLength} seconds");
+
+
+        videoPlayer.targetCameraAlpha = 1f;
+        videoPlayer.Play();
+
+        if (playPartial)
+        {
+            // Wait ~95% duration
+            float waitMs = (float)videoLength * PartialPlaybackPercent * 1000f;
+            await Task.Delay(Mathf.CeilToInt(waitMs));
+            videoPlayer.Stop();
+        }
+        else
+        {
+            // Wait until completion (loopPointReached)
+            var tcs = new TaskCompletionSource<bool>();
+            void OnDone(VideoPlayer vp)
+            {
+                vp.loopPointReached -= OnDone;
+                tcs.TrySetResult(true);
+            }
+            videoPlayer.loopPointReached += OnDone;
+            await tcs.Task;
+        }
+
+        LogManager.Trace($"[VideoManager] Finished playing video: {videoFilename}");
+        _isPlaying = false;
+        videoPlayer.targetCameraAlpha = 0f;
+        BattleManager.Instance.Unfreeze();
+        MoveEvents.RaiseMoveCutsceneEnd();
+    }
 
     /// <summary>
     /// Releases all cached video clips (and clears address cache).
@@ -148,7 +229,7 @@ public class VideoManager : MonoBehaviour
             AddressableLoader.Release(kvp.Key);
 
         _cachedVideos.Clear();
-        _currentVideoAddress = null;
+        //_currentVideoAddress = null;
 
         Debug.Log("[VideoManager] Released all cached video clips.");
     }
