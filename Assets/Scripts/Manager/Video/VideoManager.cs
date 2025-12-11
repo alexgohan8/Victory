@@ -163,6 +163,9 @@ public class VideoManager : MonoBehaviour
         // Assign and play
         LogManager.Trace($"[VideoManager] Now playing video: {videoFilename}");
 
+        videoPlayer.Stop();
+        await Task.Yield();
+
         #if UNITY_EDITOR || UNITY_LINUX
             videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "test_linux" + ".webm");
         #else
@@ -173,7 +176,15 @@ public class VideoManager : MonoBehaviour
 
         var prepareTcs = new TaskCompletionSource<bool>();
         videoPlayer.prepareCompleted += vp => prepareTcs.TrySetResult(true);
-        await prepareTcs.Task;
+
+        if (await Task.WhenAny(prepareTcs.Task, Task.Delay(5000)) != prepareTcs.Task)
+        {
+            LogManager.Warning($"[VideoManager] Timeout preparing video: {videoFilename}");
+            _isPlaying = false;
+            BattleManager.Instance.Unfreeze();
+            MoveEvents.RaiseMoveCutsceneEnd();
+            return;
+        }
 
         double videoLength = videoPlayer.length;
         LogManager.Trace($"[VideoManager] Video length: {videoLength} seconds");
