@@ -1,5 +1,5 @@
-# New Game WIP
-**New Game** AI generated game for Android and PC.
+# Inazuma Eleven Victory Iberia
+**Inazuma Eleven Victory Iberia** is an AI generated fangame for Android and PC.
 
 ---
 
@@ -10,6 +10,12 @@ are summoned by the God of Soccer
 to the Soccer World 
 to compete in the Interdimensional Strongest Cup—
 a tournament designed to prepare them for a dangerous threat.
+
+---
+
+## Downloads
+
+Download the game here: [Google Drive](https://drive.google.com/drive/folders/1apTyD4VsDyjrxGp3qTnTmw8iyjU2bDVM?usp=sharing)
 
 ---
 
@@ -57,5 +63,5 @@ Here are some screenshots to give you a taste of the action:
 
 ---
 
-> *Vamos Victory!
+> *¡Vamos Victory!
 
